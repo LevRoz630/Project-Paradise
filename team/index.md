@@ -4,10 +4,6 @@ title: Team
 permalink: /team/
 ---
 
-<p class="page-intro">Students and mentors in quantitative finance and algorithmic trading.</p>
-
----
-
 ## Supervisors
 
 <div class="note">
@@ -28,6 +24,8 @@ permalink: /team/
 
 [View All Supervisors →]({{ '/team/supervisors/' | relative_url }})
 
+---
+
 ## Members
 
 <div class="team-cards">
@@ -43,6 +41,8 @@ permalink: /team/
 </div>
 
 [View All Members →]({{ '/team/members/' | relative_url }})
+
+---
 
 ## Join Us
 

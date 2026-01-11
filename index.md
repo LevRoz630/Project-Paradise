@@ -14,6 +14,8 @@ permalink: /
   </p>
 </div>
 
+---
+
 <div class="section-header">
   <h2>What We Do</h2>
   <p>Hands-on experience in quantitative finance through projects, competitions, and research</p>

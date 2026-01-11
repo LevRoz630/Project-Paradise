@@ -6,6 +6,8 @@ permalink: /projects/
 
 <p class="page-intro">Financial engineering, machine learning, and software development.</p>
 
+---
+
 <div class="cards-grid">
   <div class="card">
     <h3>Platform</h3>
