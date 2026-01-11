@@ -1,0 +1,84 @@
+# Jekyll configuration for Project Paradise
+title: Project Paradise
+email: ""
+description: >-
+  Student-led quantitative research and trading competition project.
+  Building practical skills in algorithmic trading, machine learning, and financial engineering.
+
+baseurl: "/Project-Paradise" # repository name
+url: "https://levroz630.github.io" # your GitHub Pages URL
+
+# Build settings
+markdown: kramdown
+theme: minima
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Navigation pages (in order)
+header_pages:
+  - projects/index.md
+  - competitions/index.md
+  - team/index.md
+  - resources/index.md
+
+# Exclude from build
+exclude:
+  - _notion_export/
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor/
+  - .bundle/
+  - migrate.py
+  - "*.csv"
+  - "Competition Write-Ups*"
+  - "Competitions*"
+  - "Platform*"
+  - "Potential Competitions*"
+  - "Promising competitions*"
+  - "Project Members*"
+  - "Project Paradise*"
+  - "Project Supervisors*"
+  - "Repo Conventions*"
+  - "Research Publications*"
+  - "TBC -*"
+  - "profile-icon-design-free-vector*.jpg"
+
+# Default front matter values
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+  - scope:
+      path: "projects"
+    values:
+      layout: "project"
+  - scope:
+      path: "team"
+    values:
+      layout: "person"
+  - scope:
+      path: "competitions"
+    values:
+      layout: "page"
+  - scope:
+      path: "resources"
+    values:
+      layout: "page"
+
+# Markdown settings
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    block:
+      line_numbers: false
+
+# Social links (optional - update as needed)
+github_username: "LevRoz630"
+linkedin_username: ""

@@ -1,0 +1,51 @@
+---
+layout: default
+---
+<article class="post person">
+
+  <header class="post-header">
+    {%- if page.photo -%}
+      <img src="{{ page.photo | relative_url }}" alt="{{ page.title }}" class="person-photo" />
+    {%- endif -%}
+    <h1 class="post-title">{{ page.title | escape }}</h1>
+
+    {%- if page.role or page.position or page.university -%}
+    <div class="person-meta">
+      {%- if page.role -%}
+        <div class="person-role">
+          <strong>Role:</strong> {{ page.role | capitalize }}
+        </div>
+      {%- endif -%}
+      {%- if page.position -%}
+        <div class="person-position">
+          <strong>Position:</strong> {{ page.position }}
+        </div>
+      {%- endif -%}
+      {%- if page.university -%}
+        <div class="person-university">
+          <strong>University:</strong> {{ page.university }}
+        </div>
+      {%- endif -%}
+    </div>
+    {%- endif -%}
+  </header>
+
+  <div class="post-content">
+    {{ content }}
+
+    {%- if page.github or page.linkedin -%}
+    <div class="person-links">
+      <h3>Connect</h3>
+      <ul>
+        {%- if page.github -%}
+          <li><a href="{{ page.github }}" target="_blank">GitHub</a></li>
+        {%- endif -%}
+        {%- if page.linkedin -%}
+          <li><a href="{{ page.linkedin }}" target="_blank">LinkedIn</a></li>
+        {%- endif -%}
+      </ul>
+    </div>
+    {%- endif -%}
+  </div>
+
+</article>

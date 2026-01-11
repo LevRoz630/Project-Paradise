@@ -1,0 +1,37 @@
+---
+layout: default
+---
+<article class="post project">
+
+  <header class="post-header">
+    <h1 class="post-title">{{ page.title | escape }}</h1>
+    {%- if page.description -%}
+      <p class="post-description">{{ page.description }}</p>
+    {%- endif -%}
+
+    {%- if page.languages or page.skills or page.status -%}
+    <div class="project-meta">
+      {%- if page.languages -%}
+        <div class="project-languages">
+          <strong>Languages:</strong> {{ page.languages | join: ", " }}
+        </div>
+      {%- endif -%}
+      {%- if page.skills -%}
+        <div class="project-skills">
+          <strong>Skills:</strong> {{ page.skills | join: ", " }}
+        </div>
+      {%- endif -%}
+      {%- if page.status -%}
+        <div class="project-status">
+          <strong>Status:</strong> <span class="status-{{ page.status }}">{{ page.status | capitalize }}</span>
+        </div>
+      {%- endif -%}
+    </div>
+    {%- endif -%}
+  </header>
+
+  <div class="post-content">
+    {{ content }}
+  </div>
+
+</article>

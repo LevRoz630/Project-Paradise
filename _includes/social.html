@@ -1,0 +1,15 @@
+{%- if site.github_username -%}
+<a href="https://github.com/{{ site.github_username | cgi_escape | escape }}" title="{{ site.github_username | escape }}">
+  <svg class="svg-icon grey">
+    <use xlink:href="{{ 'assets/minima-social-icons.svg#github' | relative_url }}"></use>
+  </svg>
+</a>
+{%- endif -%}
+
+{%- if site.linkedin_username -%}
+<a href="https://www.linkedin.com/in/{{ site.linkedin_username | cgi_escape | escape }}" title="{{ site.linkedin_username | escape }}">
+  <svg class="svg-icon grey">
+    <use xlink:href="{{ 'assets/minima-social-icons.svg#linkedin' | relative_url }}"></use>
+  </svg>
+</a>
+{%- endif -%}
