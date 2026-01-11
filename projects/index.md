@@ -5,9 +5,7 @@ permalink: /projects/
 description: Student-led quantitative research and development projects
 ---
 
-Our team works on practical projects that combine financial engineering, machine learning, and software development.
-
-## Current Projects
+<p class="page-intro">Financial engineering, machine learning, and software development.</p>
 
 <div class="cards-grid">
   <div class="card">

@@ -4,7 +4,13 @@ title: Resources
 permalink: /resources/
 ---
 
-Curated learning materials for quantitative finance and algorithmic trading
+<p class="page-intro">Curated learning materials for quantitative finance and algorithmic trading.</p>
+
+<div class="get-started-box" style="margin-bottom: 2rem;">
+  <h3>Join Us</h3>
+  <p>Want to work on real projects and participate in trading competitions?</p>
+  <a href="{{ '/join/' | relative_url }}" class="btn">Apply Now</a>
+</div>
 
 ---
 
@@ -64,7 +70,7 @@ Curated learning materials for quantitative finance and algorithmic trading
 
 [Quant Game Room](https://openquant.co/math-game){:target="_blank"} | [TraderIQ](https://www.traderiq.org/practice){:target="_blank"} | [80 in 8](https://thequantprep.com/games/80-in-8){:target="_blank"}
 
-### Books (Ruslan's recommendations)
+### Books
 
 [Green Book](https://annas-archive.org/md5/5cdb5a9e69a4191da3e72e4306277a87){:target="_blank"} | [Heard on the Street](https://annas-archive.org/md5/971defe11ca16eaa42cb4b3db6e26471){:target="_blank"} | [Short-cut Math](https://annas-archive.org/md5/68f5affc0b1ad8fc70be115c3050fa04){:target="_blank"}
 

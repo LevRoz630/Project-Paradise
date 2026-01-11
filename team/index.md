@@ -5,9 +5,9 @@ permalink: /team/
 description: Project Paradise team members and supervisors
 ---
 
-Project Paradise brings together students passionate about quantitative finance, algorithmic trading, and financial engineering.
+<p class="page-intro">Students and mentors in quantitative finance and algorithmic trading.</p>
 
-## Project Supervisors
+## Supervisors
 
 <div class="note">
 <strong>Acknowledgment:</strong> We're grateful to our supervisors for their time, expertise, and dedication to helping students develop careers in quantitative finance.
@@ -29,7 +29,7 @@ Project Paradise brings together students passionate about quantitative finance,
 
 ---
 
-## Project Members
+## Members
 
 <div class="team-cards">
   <div class="card">
