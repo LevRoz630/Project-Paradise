@@ -1,0 +1,496 @@
+---
+---
+
+@import "minima";
+
+/* Modern Professional Theme for Project Paradise */
+
+/* Color Palette - Modern Fintech */
+:root {
+  --primary-color: #0052CC;
+  --primary-dark: #003D99;
+  --primary-light: #4C9AFF;
+  --secondary-color: #00B8D9;
+  --accent-color: #36B37E;
+  --text-primary: #172B4D;
+  --text-secondary: #5E6C84;
+  --background-light: #F4F5F7;
+  --background-white: #FFFFFF;
+  --border-color: #DFE1E6;
+  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.12);
+  --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.15);
+  --shadow-lg: 0 8px 24px rgba(0, 0, 0, 0.15);
+}
+
+/* Typography Improvements */
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  color: var(--text-primary);
+  background-color: var(--background-light);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 600;
+  color: var(--text-primary);
+  margin-top: 1.5em;
+  margin-bottom: 0.75em;
+  line-height: 1.3;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-top: 0;
+}
+
+h2 {
+  font-size: 2rem;
+  border-bottom: 2px solid var(--primary-color);
+  padding-bottom: 0.5rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+  color: var(--primary-dark);
+}
+
+/* Links */
+a {
+  color: var(--primary-color);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+a:hover {
+  color: var(--primary-dark);
+  text-decoration: underline;
+}
+
+/* Header/Navigation */
+.site-header {
+  background-color: var(--background-white);
+  border-bottom: 1px solid var(--border-color);
+  box-shadow: var(--shadow-sm);
+  padding: 1rem 0;
+}
+
+.site-title {
+  font-size: 1.75rem !important;
+  font-weight: 700 !important;
+  color: var(--primary-color) !important;
+  letter-spacing: -0.5px;
+}
+
+.site-title:hover {
+  text-decoration: none !important;
+  color: var(--primary-dark) !important;
+}
+
+.site-nav .page-link {
+  color: var(--text-primary);
+  font-weight: 500;
+  padding: 0.5rem 1rem;
+  margin-left: 0.25rem;
+  border-radius: 4px;
+  transition: all 0.2s ease;
+}
+
+.site-nav .page-link:hover {
+  background-color: var(--background-light);
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+/* Main Content */
+.page-content {
+  padding: 2rem 0;
+  background-color: var(--background-light);
+}
+
+.wrapper {
+  max-width: 1200px;
+  background-color: var(--background-white);
+  padding: 3rem;
+  border-radius: 8px;
+  box-shadow: var(--shadow-sm);
+}
+
+/* Hero Section - Homepage */
+.hero {
+  text-align: center;
+  padding: 3rem 2rem;
+  background: linear-gradient(135deg, var(--primary-color) 0%, var(--primary-dark) 100%);
+  color: white;
+  border-radius: 8px;
+  margin-bottom: 3rem;
+  box-shadow: var(--shadow-md);
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  color: white;
+}
+
+.hero p {
+  font-size: 1.25rem;
+  opacity: 0.95;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.hero-description {
+  font-size: 1.125rem;
+  margin-top: 1rem;
+  opacity: 0.9;
+}
+
+/* Cards */
+.cards-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin: 2rem 0;
+}
+
+.card {
+  background: var(--background-white);
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  padding: 2rem;
+  transition: all 0.3s ease;
+  box-shadow: var(--shadow-sm);
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-lg);
+  border-color: var(--primary-light);
+}
+
+.card h3 {
+  margin-top: 0;
+  color: var(--primary-color);
+  font-size: 1.5rem;
+}
+
+.card p {
+  color: var(--text-secondary);
+  margin-bottom: 1.5rem;
+}
+
+.card a {
+  color: var(--primary-color);
+  font-weight: 600;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.card a:hover {
+  color: var(--primary-dark);
+  text-decoration: none;
+}
+
+.card a::after {
+  content: "→";
+  font-size: 1.25rem;
+  transition: transform 0.2s ease;
+}
+
+.card:hover a::after {
+  transform: translateX(4px);
+}
+
+/* Section Headers */
+.section-header {
+  text-align: center;
+  margin: 3rem 0 2rem;
+}
+
+.section-header h2 {
+  font-size: 2.25rem;
+  color: var(--primary-color);
+  border: none;
+  margin-bottom: 0.5rem;
+}
+
+.section-header p {
+  font-size: 1.125rem;
+  color: var(--text-secondary);
+}
+
+/* Buttons */
+.btn {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  background-color: var(--primary-color);
+  color: white;
+  border-radius: 6px;
+  font-weight: 600;
+  text-align: center;
+  transition: all 0.2s ease;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background-color: var(--primary-dark);
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+  color: white;
+  text-decoration: none;
+}
+
+.btn-secondary {
+  background-color: var(--secondary-color);
+}
+
+.btn-secondary:hover {
+  background-color: #0097B3;
+}
+
+/* Project Meta */
+.project-meta {
+  background: var(--background-light);
+  border-left: 4px solid var(--primary-color);
+  padding: 1.5rem;
+  margin: 2rem 0;
+  border-radius: 4px;
+}
+
+.project-meta > div {
+  margin: 0.5rem 0;
+}
+
+.project-meta strong {
+  color: var(--primary-color);
+  font-weight: 600;
+}
+
+.status-active {
+  color: var(--accent-color);
+  font-weight: 600;
+}
+
+/* Team Member Cards */
+.person-photo {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 0 auto 1rem;
+  display: block;
+  border: 4px solid var(--primary-light);
+  box-shadow: var(--shadow-md);
+}
+
+.person-meta {
+  background: var(--background-light);
+  padding: 1.5rem;
+  border-radius: 8px;
+  margin: 1.5rem 0;
+}
+
+.person-links {
+  margin-top: 2rem;
+  padding-top: 1.5rem;
+  border-top: 2px solid var(--border-color);
+}
+
+.person-links ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 1rem;
+}
+
+.person-links li {
+  display: inline-block;
+}
+
+.person-links a {
+  display: inline-block;
+  padding: 0.5rem 1.25rem;
+  background-color: var(--primary-color);
+  color: white;
+  border-radius: 6px;
+  font-weight: 500;
+  transition: all 0.2s ease;
+}
+
+.person-links a:hover {
+  background-color: var(--primary-dark);
+  transform: translateY(-2px);
+  text-decoration: none;
+}
+
+/* Tables */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 2rem 0;
+  background: var(--background-white);
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: var(--shadow-sm);
+}
+
+table th,
+table td {
+  padding: 1rem;
+  text-align: left;
+  border-bottom: 1px solid var(--border-color);
+}
+
+table th {
+  background-color: var(--primary-color);
+  color: white;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 0.875rem;
+  letter-spacing: 0.5px;
+}
+
+table tr:hover {
+  background-color: var(--background-light);
+}
+
+table tr:last-child td {
+  border-bottom: none;
+}
+
+/* Code blocks */
+pre, code {
+  border-radius: 6px;
+  background-color: #1E1E1E;
+  color: #D4D4D4;
+}
+
+pre {
+  padding: 1.5rem;
+  overflow-x: auto;
+  box-shadow: var(--shadow-sm);
+  margin: 1.5rem 0;
+}
+
+code {
+  padding: 0.25rem 0.5rem;
+  font-size: 0.9em;
+}
+
+pre code {
+  background: none;
+  padding: 0;
+}
+
+/* Footer */
+.site-footer {
+  background-color: var(--text-primary);
+  color: white;
+  padding: 2rem 0;
+  margin-top: 4rem;
+}
+
+.site-footer a {
+  color: var(--primary-light);
+}
+
+.site-footer a:hover {
+  color: white;
+}
+
+/* Badges */
+.badge {
+  display: inline-block;
+  padding: 0.25rem 0.75rem;
+  background-color: var(--primary-light);
+  color: white;
+  border-radius: 12px;
+  font-size: 0.875rem;
+  font-weight: 500;
+  margin: 0.25rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .wrapper {
+    padding: 1.5rem;
+  }
+
+  .hero {
+    padding: 2rem 1rem;
+  }
+
+  .hero h1 {
+    font-size: 2rem;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  .cards-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  table {
+    font-size: 0.875rem;
+  }
+
+  table th,
+  table td {
+    padding: 0.75rem 0.5rem;
+  }
+}
+
+/* Note/Alert boxes */
+.note {
+  background-color: #E3FCEF;
+  border-left: 4px solid var(--accent-color);
+  padding: 1rem 1.5rem;
+  margin: 2rem 0;
+  border-radius: 4px;
+}
+
+.warning {
+  background-color: #FFF4E5;
+  border-left: 4px solid #FF991F;
+  padding: 1rem 1.5rem;
+  margin: 2rem 0;
+  border-radius: 4px;
+}
+
+/* Post description */
+.post-description {
+  font-size: 1.25rem;
+  color: var(--text-secondary);
+  margin-bottom: 2rem;
+  font-style: normal;
+}
+
+/* Improved list styling */
+ul, ol {
+  line-height: 1.8;
+}
+
+li {
+  margin-bottom: 0.5rem;
+}
+
+/* Better spacing */
+p {
+  margin-bottom: 1.25rem;
+}
+
+section {
+  margin: 3rem 0;
+}

@@ -1,160 +1,144 @@
 ---
-layout: page
+layout: default
 title: Project Paradise
 permalink: /
 ---
 
-# Project Paradise
+<div class="hero">
+  <h1>Project Paradise</h1>
+  <p class="hero-description">
+    Student-led quantitative research and trading competition project
+  </p>
+  <p>
+    Building practical skills in algorithmic trading, machine learning, and financial engineering
+  </p>
+</div>
 
-### Table of Contents
+<div class="section-header">
+  <h2>What We Do</h2>
+  <p>Hands-on experience in quantitative finance through projects, competitions, and research</p>
+</div>
 
-## Who is Who
+<div class="cards-grid">
+  <div class="card">
+    <h3>🚀 Projects</h3>
+    <p>Build real-world tools like backtesting platforms, ML models, and trading systems. Learn Python, SQL, Docker, and more.</p>
+    <a href="/projects/">Explore Projects</a>
+  </div>
 
-- Supervisors
-    
-    [Project Supervisors](/team/supervisors/)
-    
-- Members
-    
-    [Project Members](/team/members/)
-    
+  <div class="card">
+    <h3>🏆 Competitions</h3>
+    <p>Participate in trading competitions from Citadel, Jane Street, IMC, and more. Test your skills against the best.</p>
+    <a href="/competitions/">View Competitions</a>
+  </div>
 
-## Projects
+  <div class="card">
+    <h3>👥 Community</h3>
+    <p>Join a team of passionate students and experienced mentors. Collaborate, learn, and grow together.</p>
+    <a href="/team/">Meet the Team</a>
+  </div>
+</div>
 
-- Current Projects
-    
-    [Platform](/projects/platform/)
-    
-    - Student-Focused Backtester Platform
-    
-    [Research Publications](/projects/research-publications/)
-    
-    - Research Publications Development and Review
-    
-    [Competitions](/competitions/)
-    
-    - Competitions
-    
-    [TBC - Internship Prep Platform](/projects/internship-prep-platform/)
-    
-    - Learning Platform Improvement (Help one of the supervisors)
-- Project Ideas
-    - Team Poker games (could invite equity people at some point) using a platform / poker simulator
+---
+
+## Current Projects
+
+<div class="cards-grid">
+  <div class="card">
+    <h3>Platform</h3>
+    <p><strong>Student-focused backtesting platform</strong></p>
+    <p>Easy-to-learn tool with frictionless data loading and report compilation for strategy hypothesis testing.</p>
+    <p><span class="badge">Python</span> <span class="badge">SQL</span> <span class="badge">Docker</span></p>
+    <a href="/projects/platform/">Learn More</a>
+  </div>
+
+  <div class="card">
+    <h3>Research Publications</h3>
+    <p><strong>Student-led research papers</strong></p>
+    <p>Support students in conducting original research and publishing findings in quantitative finance and algorithmic trading.</p>
+    <a href="/projects/research-publications/">Learn More</a>
+  </div>
+
+  <div class="card">
+    <h3>Internship Prep Platform</h3>
+    <p><strong>Learning platform improvement</strong></p>
+    <p>Help develop an educational platform for preparing students for quantitative finance and trading internships.</p>
+    <p><span class="badge">TypeScript</span> <span class="badge">Python</span> <span class="badge">LLM</span></p>
+    <a href="/projects/internship-prep-platform/">Learn More</a>
+  </div>
+</div>
+
+---
 
 ## Competitions
 
-*Previous and future competitions*
+We actively participate in quantitative trading competitions and data science challenges:
 
-[Competition Write-Ups](/competitions/write-ups/)
+- **📝 Competition Write-Ups** - Documented strategies and learnings from past competitions
+- **🎯 40+ Potential Competitions** - Curated list of Kaggle, proprietary, and academic challenges
+- **⭐ Promising Competitions** - Upcoming trading competitions we're targeting
 
-[Potential Competitions](/competitions/potential/)
+<div style="text-align: center; margin: 2rem 0;">
+  <a href="/competitions/" class="btn">Browse All Competitions</a>
+</div>
 
-[Promising competitions to take part in (upd. 9th January)](/competitions/promising/)
+---
 
-## Helpful Resources
+## Learning Resources
 
-- Read Before Starting A Project
-    
-    **Coding**:
-    
-    GitHub Docs for someone not familiar with Git (Central to any coding project execution)
-    
-    - https://docs.github.com/en/get-started/using-github/github-flow
-    
-    GitHub Projects Docs, environment for planning, tracking and delivering projects, includes tasks, timelines etc. Central tool in project progression.
-    
-    - https://docs.github.com/en/issues/planning-and-tracking-with-projects
-    
-    For a brief overview of a typical repo structure and development rules see:
-    
-    [Repo Conventions](/resources/repo-conventions/)
-    
-    **Research**:
-    
-    2-page guide on effective research
-    
-    - [How to Read a Paper](http://ccr.sigcomm.org/online/files/p83-keshavA.pdf)
-    
-    **ML**:
-    
-    How to build a good ML-based algorithm. Article applies it to business but principles with data handling and building do not change. TLDR: Simpler is Better.
-    
-    - [Rules of Machine Learning:  |  Google for Developers](https://developers.google.com/machine-learning/guides/rules-of-ml)
-    
-    **Infrastructure:**
-    
-    Affordable and easy to set up server renting:
-    
-    - [Rent GPUs | Vast.ai](https://vast.ai/)
-- Books
-    
-    Statistics:
-    
-    - 3031391896 annas archive
-    
-    Programming:
-    
-    - Python for Finance - Some good chapters with applications of basic strategies and option pricing, small things about code optimization and language structure as well
-        - [Python for Finance: Mastering Data-Driven Finance Book - Anna’s Archive](https://annas-archive.org/md5/73c51b4cae43a421626aa460a288fbc9)
-    
-    ML:
-    
-    - ML Bible - Hands-on Machine Learning with sklearn, ketas, tensorflow
-        - [1098125975 - Search - Anna’s Archive](https://pcm.annas-archive.org/search?index=&page=1&q=1098125975&display=&sort=)
-    - Advances in Financial Machine Learning
-        - [https://de.annas-archive.org/md5/b9a2e4a251b7c534d319daa3b50a2761](https://de.annas-archive.org/md5/b9a2e4a251b7c534d319daa3b50a2761)
-- Online Courses
-    - Trading
-        - https://akunacapital.teachable.com/p/options101
-    - ML
-        - CS231 - Really good
-            - [https://cs231n.github.io/](https://cs231n.github.io/)
-        - CS229 - Really good
-            - [https://see.stanford.edu/course/cs229](https://see.stanford.edu/course/cs229)
-    - 
-- Generally Useful Articles
-    
-    ML:
-    
-    Advice / Industry:
-    
-    - [Buy-Side Quant Job Advice](https://sangmino.github.io/Documents/r60.pdf?ref=hackernoon.com)
-    - https://hackernoon.com/breaking-into-quant-trading-a-practical-no-fluff-guide
-    - [Mental Math for Quantitative Traders](https://openquant.co/blog/math-for-traders)
-- Interview Prep
-    
-    Prep Sites:
-    
-    - [Quant Game Room - OpenQuant](https://openquant.co/math-game)
-    - [TraderIQ – Quant Trading Interview Prep & Mental Math](https://www.traderiq.org/practice?utm_source=chatgpt.com)
-    - https://thequantprep.com/games/80-in-8
-    
-    For written resources advice, gratitude goes to one of our supervisors, Ruslan
-    
-    - Green Book:
-        - [A Practical Guide To Quantitative Finance Interviews - Anna’s Archive](https://annas-archive.org/md5/5cdb5a9e69a4191da3e72e4306277a87)
-    - Heard on the Street:
-        - https://annas-archive.org/md5/971defe11ca16eaa42cb4b3db6e26471
-    - Mental Maths:
-        - [Short-cut math - Anna’s Archive](https://annas-archive.org/md5/68f5affc0b1ad8fc70be115c3050fa04)
-        - https://annas-archive.org/md5/a8ba646133e0b004b8538ad2dc8919bd
-    - LeetCode BLIND-75 Solutions:
-        - [Leetcode BLIND-75 Solutions - YouTube](https://www.youtube.com/playlist?list=PLot-Xpze53ldVwtstag2TL4HQhAnC8ATf)
-        
-- How To Win Comp Guides
-    - Tricks by ex Kaggle Top-1:
-        - [Kaggle tricks from Grandmaster & HFT Quant](https://okhlopkov.com/kaggle-tricks-from-grandmaster-hft-quant/?utm_source=chatgpt.com)
-    - 2 Short Presentations that are a great starter:
-        - [How_to_win_Kaggle_competitions](https://github.com/SJD1882/MOOC-Coursera-Advanced-Machine-Learning/blob/master/2%20-%20How%20to%20Win%20a%20Data%20Science%20Competition/Final%20Project/slides/1%20-%20Practical%20guide%20for%20Kaggle%20competitions.pdf)
-    - Strategy repo
-        - [GitHub - adamd1985/quant_research: Collection of notebooks and scripts related to financial engineering, quant-research and algo-trading.](https://github.com/adamd1985/quant_research/tree/main)
-    - Small Tips and Tricks:
-        - https://www.youtube.com/watch?v=fXnzjJMbujc
-    - Experience with Kaggle Two Sigma Comp by Kaggle Top-1 (No English Subtitles)
-        - [5 secrets to becoming a Kaggle grandmaster — Pavel Pleskov - YouTube](https://www.youtube.com/watch?v=fXnzjJMbujc)
-        
-- Poker Maths
-    - Essential Poker Maths:
-        - [Essential Poker Math, Expanded Edition: Fundamental No-Limit Hold'em Mathematics You Need to Know - Anna’s Archive](https://annas-archive.org/md5/04ee8ac2731df12fecb9fb21c97324ca)
-    - MIT Lecture Course:
-        - [https://ocw.mit.edu/courses/15-s50-poker-theory-and-analytics-january-iap-2015/download/](https://ocw.mit.edu/courses/15-s50-poker-theory-and-analytics-january-iap-2015/download/)
+<div class="cards-grid">
+  <div class="card">
+    <h3>📚 Books & Courses</h3>
+    <p>Curated collection of essential readings in statistics, ML, and finance, plus top online courses from Stanford and more.</p>
+    <a href="/resources/#books">View Resources</a>
+  </div>
+
+  <div class="card">
+    <h3>💼 Interview Prep</h3>
+    <p>Practice platforms, mental math tools, and recommended books to ace quant trading interviews.</p>
+    <a href="/resources/#interview-preparation">Prep Materials</a>
+  </div>
+
+  <div class="card">
+    <h3>🏅 Competition Guides</h3>
+    <p>Tips from Kaggle Grandmasters and strategies for winning trading competitions.</p>
+    <a href="/resources/#competition-success-guides">Winning Strategies</a>
+  </div>
+</div>
+
+---
+
+## Get Started
+
+<div style="background: var(--background-light); padding: 2rem; border-radius: 8px; margin: 2rem 0;">
+
+### Ready to Join?
+
+Whether you're interested in **research**, **software engineering**, **trading**, or **data science**, there's a place for you in Project Paradise.
+
+**Skills we value:**
+- Programming (Python, SQL, C++)
+- Finance & Trading
+- Mathematics & Statistics
+- Machine Learning
+- Software Engineering
+
+<div style="text-align: center; margin-top: 1.5rem;">
+  <a href="/team/" class="btn">Join the Team</a>
+  <a href="/resources/repo-conventions/" class="btn btn-secondary" style="margin-left: 1rem;">View Conventions</a>
+</div>
+
+</div>
+
+---
+
+### Project Ideas
+
+- 🃏 Team Poker games using a platform/poker simulator
+- More projects coming soon...
+
+<div style="text-align: center; margin: 3rem 0 1rem;">
+  <p style="color: var(--text-secondary);">
+    <strong>Project Paradise</strong> - Building the next generation of quantitative traders and researchers
+  </p>
+</div>
