@@ -2,10 +2,11 @@
 layout: page
 title: Team
 permalink: /team/
-description: Project Paradise team members and supervisors
 ---
 
 <p class="page-intro">Students and mentors in quantitative finance and algorithmic trading.</p>
+
+---
 
 ## Supervisors
 
@@ -26,8 +27,6 @@ description: Project Paradise team members and supervisors
 </div>
 
 [View All Supervisors →]({{ '/team/supervisors/' | relative_url }})
-
----
 
 ## Members
 

@@ -2,7 +2,6 @@
 layout: page
 title: Projects
 permalink: /projects/
-description: Student-led quantitative research and development projects
 ---
 
 <p class="page-intro">Financial engineering, machine learning, and software development.</p>

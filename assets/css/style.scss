@@ -1,16 +1,14 @@
 ---
 ---
 
-$brand-color: #2D7A4A;
-$brand-color-light: lighten($brand-color, 40%);
-$brand-color-dark: darken($brand-color, 25%);
+$brand-color: #3D9A5A;
 
 @import "minima";
 
 /* Clean, Simple Design inspired by ERG */
 
 :root {
-  --green: #2D7A4A;
+  --green: #3D9A5A;
   --green-light: #E8F5E9;
   --text: #37352F;
   --text-light: #787774;
@@ -67,15 +65,13 @@ p {
   line-height: 1.75;
 }
 
-a, a:visited {
-  color: var(--green) !important;
+a {
+  color: var(--green);
   text-decoration: none;
-  font-weight: 500;
 }
 
 a:hover {
   text-decoration: underline;
-  color: var(--green) !important;
 }
 
 ul, ol {
@@ -221,9 +217,9 @@ strong {
 
 /* Page Intro */
 .page-intro {
-  font-size: 1.25rem;
-  color: var(--text-light);
-  margin: -0.5rem 0 1.5rem;
+  font-size: 1.1rem;
+  color: #999;
+  margin: -0.5rem 0 0.5rem;
   line-height: 1.6;
 }
 
@@ -300,9 +296,11 @@ strong {
   line-height: 1.7;
 }
 
-/* Remove hr separators */
+/* Horizontal rule */
 hr {
-  display: none;
+  border: none;
+  border-top: 1px solid var(--border);
+  margin: 1.5rem 0;
 }
 
 /* Tables */
