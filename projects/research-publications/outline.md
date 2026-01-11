@@ -4,62 +4,95 @@ title: Outline
 permalink: /projects/research-publications/outline/
 ---
 
-# Outline
-
 ### What this is
 
 A way for small student teams to ship real research writeups that are **public**, **reproducible**, and **easy to review.**
 
-### What do you get as a researcher
+---
 
-- **Skill + portfolio compounding:** you learn to go from idea → experiment → writeup → publish, and build a track record that’s immediately usable for recruiters/grad programs.
-- **Platform leverage:** you get access to the platform to run experiments, generate clean artifact bundles (tables/plots/logs), and ship a “golden run + golden test” that makes your work verifiable and easy to share.
-- **High-quality feedback + network:** industry supervisors sanity-check correctness, suggest methods and related work, and you get attributed feedback.
+### For Researchers
 
-### What do you get as a supervisor
+| Benefit | Description |
+|---------|-------------|
+| Skill Building | Learn to go from idea → experiment → writeup → publish |
+| Portfolio | Build a track record for recruiters and grad programs |
+| Platform Access | Run experiments, generate artifact bundles (tables/plots/logs) |
+| Verification | Ship a "golden run + golden test" that makes work verifiable |
+| Feedback | Industry supervisors check correctness and suggest methods |
 
-- **Influence without heavy commitment:** a review that actually changes a shipped output, without ongoing mentoring.
-- **Intellectual stimulation:** exposure to new approaches, clean writeups, and a steady stream of “interesting problems” to comment on.
-- **Optional credit:** they *can* be acknowledged publicly, but it’s strictly opt-in / anonymisable by default.
+---
 
-### What counts as a “publication”
+### For Supervisors
 
-A short research note (usually **2–5 pages**, longer if it genuinely adds value) with:
+| Benefit | Description |
+|---------|-------------|
+| Low Commitment | Review that changes shipped output, without ongoing mentoring |
+| Intellectual Stimulation | Exposure to new approaches and interesting problems |
+| Optional Credit | Public acknowledgment is opt-in and anonymisable by default |
 
-- a clear question + takeaway
-- existing methods
-- used method + results
-- limitations / what might break
-- a reproducible run + artifacts
+---
 
-### Teams (how we work)
+### What counts as a "publication"
 
-- Each paper is done by a **team of 1–4 students**.
-- Teams pick topics and approaches freely, the only hard rules are the reproducibility and publishability bar.
-- **One active paper per team** at a time, so things actually finish.
+A short research note (usually **2–5 pages**, longer if it genuinely adds value):
 
-### Everything is public
+| Component | Description |
+|-----------|-------------|
+| Question | Clear question + takeaway |
+| Methods | Existing methods reviewed |
+| Results | Your method + results |
+| Limitations | What might break |
+| Artifacts | Reproducible run + outputs |
 
-- Default is **publish openly**.
-- If something uses restricted/proprietary inputs, it still needs to be publishable without leaking anything — otherwise we don’t run that project.
+---
 
-### Supervisor reviews (industry)
+### Teams
 
-- Supervisors review for **correctness**, suggest **better methods**, and point to **relevant prior work**.
-- Credited publicly unless they ask to be anonymous.
+| Rule | Description |
+|------|-------------|
+| Size | 1–4 students per paper |
+| Freedom | Teams pick topics and approaches freely |
+| Focus | One active paper per team at a time |
+| Requirements | Reproducibility and publishability bar must be met |
 
-### How a paper moves (simple stages, doesn’t need to be in this order)
+---
 
-- **Draft:** question + plan + what “success” looks like
-- **Consultation:** supervisor feedback
-- **Run:** produce artifacts + golden run
-- **Write:** claims + plots + limitations + a short summary
-- **Review:** supervisor feedback
-- **Publish**
+### Publication Policy
 
-### What success looks like
+| Policy | Description |
+|--------|-------------|
+| Default | Publish openly |
+| Proprietary Data | Must be publishable without leaking restricted inputs |
 
-- papers get shipped regularly
-- anyone can reproduce results from the links
-- supervisors can review quickly without meetings
-- platform steadily gets better because real papers keep pushing it
+---
+
+### Supervisor Reviews
+
+| Aspect | Description |
+|--------|-------------|
+| Focus | Correctness, better methods, relevant prior work |
+| Credit | Public unless they ask to be anonymous |
+
+---
+
+### Paper Stages
+
+| Stage | Description |
+|-------|-------------|
+| Draft | Question + plan + success criteria |
+| Consultation | Supervisor feedback |
+| Run | Produce artifacts + golden run |
+| Write | Claims + plots + limitations + summary |
+| Review | Supervisor feedback |
+| Publish | Ship it |
+
+---
+
+### Success Criteria
+
+| Metric | Description |
+|--------|-------------|
+| Output | Papers ship regularly |
+| Reproducibility | Anyone can reproduce results from links |
+| Efficiency | Supervisors review quickly without meetings |
+| Platform Growth | Real papers keep pushing the platform forward |

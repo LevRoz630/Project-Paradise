@@ -2,47 +2,64 @@
 layout: page
 title: Team
 permalink: /team/
-description: Meet the Project Paradise team members and supervisors
+description: Project Paradise team members and supervisors
 ---
 
-# Team
-
-Project Paradise brings together students passionate about quantitative finance, algorithmic trading, and financial engineering. Our team combines diverse backgrounds in mathematics, computer science, and finance.
+Project Paradise brings together students passionate about quantitative finance, algorithmic trading, and financial engineering.
 
 ## Project Supervisors
 
-Our supervisors provide guidance, mentorship, and industry insights to help students develop practical skills and navigate career opportunities in quantitative finance.
+<div class="note">
+<strong>Acknowledgment:</strong> We're grateful to our supervisors for their time, expertise, and dedication to helping students develop careers in quantitative finance.
+</div>
 
-[View Supervisors →](/team/supervisors/)
+<div class="team-cards">
+  <div class="card">
+    <img src="/Project-Paradise/assets/images/profile-icon.jpg" alt="Jackie Jack" class="person-photo" />
+    <h3>Jackie Jack</h3>
+    <p><strong>Position:</strong> Burger Price Modeller @ CrabsyCrabs</p>
+    <p>Industry professional guiding Project Paradise members in quantitative finance.</p>
+    <div class="person-links">
+      <a href="{{ '/team/supervisors/jackie-jack/' | relative_url }}">View Profile →</a>
+    </div>
+  </div>
+</div>
+
+[View All Supervisors →]({{ '/team/supervisors/' | relative_url }})
 
 ---
 
 ## Project Members
 
-Students actively participating in projects, competitions, and research initiatives. Our members gain hands-on experience with real-world trading strategies, machine learning applications, and software development.
+<div class="team-cards">
+  <div class="card">
+    <img src="/Project-Paradise/assets/images/profile-icon.jpg" alt="John Johnson" class="person-photo" />
+    <h3>John Johnson</h3>
+    <p><strong>University:</strong> University of Atlantida</p>
+    <p><strong>Interests:</strong> Research, Software Engineering, Trading</p>
+    <div class="person-links">
+      <a href="{{ '/team/members/john-johnson/' | relative_url }}">View Profile →</a>
+    </div>
+  </div>
+</div>
 
-[View Members →](/team/members/)
-
----
+[View All Members →]({{ '/team/members/' | relative_url }})
 
 ## Join Us
 
-Interested in joining Project Paradise? We're always looking for motivated students who want to:
-- Build practical skills in algorithmic trading and quantitative research
-- Participate in trading competitions and data challenges
-- Collaborate on open-source projects
-- Learn from experienced mentors and industry professionals
+Interested in joining Project Paradise? We welcome both students and experienced professionals as mentors.
 
-Whether you're interested in **research**, **software engineering**, **trading**, or **data science**, there's a place for you in Project Paradise.
+| Opportunity | Description |
+|-------------|-------------|
+| Build Skills | Practical experience in algorithmic trading and backtesting |
+| Competitions | Participate in trading competitions from top firms |
+| Collaboration | Work on open-source projects with peers |
+| Mentorship | Learn from experienced industry professionals |
 
-## Skills We Value
+**Skills we value:**
 
-- **Programming:** Python, SQL, C++, and other languages
-- **Finance:** Trading, market microstructure, derivatives
-- **Mathematics:** Statistics, probability, linear algebra, calculus
-- **Machine Learning:** Feature engineering, model validation, time series
-- **Software Engineering:** Git, Docker, REST APIs, testing
+<span class="badge">Python</span> <span class="badge">C++</span> <span class="badge">Finance</span> <span class="badge">Statistics</span> <span class="badge">Machine Learning</span> <span class="badge">Software Engineering</span>
 
-## Learning Together
-
-We believe in collaborative learning and knowledge sharing. Check out our [Resources](/resources/) page for books, courses, and materials we use to develop our skills.
+<div style="text-align: center; margin: 2rem 0;">
+  <a href="{{ '/join/' | relative_url }}" class="btn">Apply Now</a>
+</div>

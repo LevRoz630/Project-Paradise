@@ -2,52 +2,84 @@
 layout: page
 title: Competitions
 permalink: /competitions/
-description: Trading competitions, data challenges, and hackathons
 ---
 
-# Competitions
-
-Participating in quantitative trading competitions and data science challenges is a core part of our learning process. These competitions provide hands-on experience with real-world financial data and algorithmic trading strategies.
-
-## Competition Resources
-
-### Write-Ups
-Documentation and analysis of competitions we've participated in, including strategies, results, and lessons learned.
-
-[View Competition Write-Ups →](/competitions/write-ups/)
+[Write-Ups]({{ '/competitions/write-ups/' | relative_url }}) | [Conventions]({{ '/competitions/write-ups/conventions/' | relative_url }}) | [Resources]({{ '/resources/' | relative_url }})
 
 ---
 
-### Potential Competitions
-A comprehensive list of 40+ trading competitions, data challenges, and hackathons across different categories:
-- **Proprietary competitions** (Citadel, IMC, Jane Street, WorldQuant, etc.)
-- **Kaggle challenges** (DRW, Jane Street Market Prediction, Optiver, etc.)
-- **Academic competitions** (HKU & Avenir, university trading competitions)
+## 2026 Upcoming
 
-[Browse Potential Competitions →](/competitions/potential/)
+| Competition | Details | Link |
+|-------------|---------|------|
+| Harvard UTC | Individual apps → random teams | [Site ↗](https://www.harvarduqt.com/competition){:target="_blank"} |
+| Yale UTC | Deadline: 11th Jan | [Site ↗](https://yutc.org/){:target="_blank"} |
+| UChicago TC | Teams of 3-4 | [Site ↗](https://tradingcompetition.uchicago.edu/){:target="_blank"} |
+| Rotman ITC | Teams of 4-6, same university | [Site ↗](https://www.rotman.utoronto.ca/faculty-and-research/education-labs/bmo-financial-group-finance-research-and-trading-lab/rotman-international-trading-competition/){:target="_blank"} |
+| Global Quant | Less student-focused | [Site ↗](https://algogene.com/contest/quant){:target="_blank"} |
+| Ensimag IF | German electricity market | [Kaggle ↗](https://www.kaggle.com/competitions/ensimag-if-2025/data){:target="_blank"} |
 
----
-
-### Promising Competitions
-Curated list of upcoming trading competitions that we're actively considering or planning to participate in:
-- Harvard Undergraduate Trading Competition
-- UChicago Trading Competition
-- Global Quant Trading Challenge
-- Rotman International Trading Competition
-- Yale Undergraduate Trading Competition
-- Ensimag Algorithmic Trading Challenge
-
-[View Promising Competitions →](/competitions/promising/)
+[Full 2026 List by Christina Qi ↗](https://www.linkedin.com/pulse/2026-quant-trading-competitions-events-students-links-christina-qi-zygjc){:target="_blank"}
 
 ---
 
-## Competition Guidelines
+## Proprietary
 
-Before participating in a competition, make sure to review our:
-- [Write-Up Conventions](/competitions/write-ups/conventions/) - Standards for documenting competition work
-- [Repo Conventions](/resources/repo-conventions/) - Development and collaboration standards
-- [Helpful Resources](/resources/) - Books, courses, and guides for competition success
+### Citadel
 
-## Past Performance
+| Competition | Description | Links |
+|-------------|-------------|-------|
+| Datathon | Annual data-driven challenge | [Site ↗](https://www.citadelsecurities.com/careers/programs-and-events/datathons/){:target="_blank"} · [Ex1 ↗](https://github.com/Shivamkak19/Citadel-Datathon){:target="_blank"} · [Ex2 ↗](https://github.com/alina-cai/citadel-datathon-2024){:target="_blank"} |
+| Terminal | Algo trading simulation | [Site ↗](https://www.citadelsecurities.com/careers/programs-and-events/terminal/){:target="_blank"} · [Sol1 ↗](https://github.com/andrewda28/Citadel-Terminal){:target="_blank"} · [Sol2 ↗](https://github.com/langsonzhang/Terminal-C1-Midwest-2022){:target="_blank"} |
+| Trading Invitational | Elite competition | [Site ↗](https://www.citadel.com/careers/programs-and-events/the-trading-invitational/){:target="_blank"} |
 
-We document all our competition experiences to build institutional knowledge and help future participants learn from our successes and challenges.
+### IMC & Others
+
+| Competition | Description | Links |
+|-------------|-------------|-------|
+| IMC Prosperity | April - World's most elaborate | [Site ↗](https://www.imc.com/ap/news/corporate-news-prosperity-the-worlds-most-elaborate-trading-challenge/){:target="_blank"} · [P2 ↗](https://github.com/ericcccsliu/imc-prosperity-2){:target="_blank"} · [P3 ↗](https://github.com/TimoDiehm/imc-prosperity-3){:target="_blank"} |
+| Croatia Algo | April-June, Jump/JS/SIG | [Site ↗](https://algotrade.xfer.hr/){:target="_blank"} |
+| WorldQuant IQC | Annual Quant Championship | [Site ↗](https://www.worldquant.com/brain/iqc/){:target="_blank"} |
+
+### University
+
+| Competition | Description | Links |
+|-------------|-------------|-------|
+| Rotman ITC | University of Toronto | [Site ↗](https://inside.rotman.utoronto.ca/financelab/competition/rotman-international-trading-competition/){:target="_blank"} · [2024 ↗](https://github.com/LiChiLin/Rotman-Trading-Competition-2024){:target="_blank"} |
+| HKU & Avenir | Hong Kong challenge | [Site ↗](https://www.avenir.hk/trading-challenge){:target="_blank"} |
+
+---
+
+## Kaggle
+
+### Jane Street
+
+| Competition | Top Solutions |
+|-------------|---------------|
+| [Market Prediction ↗](https://www.kaggle.com/competitions/jane-street-market-prediction){:target="_blank"} | [1st Autoencoder ↗](https://www.kaggle.com/competitions/jane-street-market-prediction/writeups/cats-trading-yirun-s-solution-1st-place-training-s){:target="_blank"} · [3rd MLPs ↗](https://www.kaggle.com/competitions/jane-street-market-prediction/writeups/martin-bb-3rd-place-solution-ensembles-of-deep-49-){:target="_blank"} · [10th GBM ↗](https://www.kaggle.com/competitions/jane-street-market-prediction/writeups/float-10th-place-solution-geometric-brownian-motio){:target="_blank"} |
+| [Real-Time Forecasting ↗](https://www.kaggle.com/competitions/jane-street-real-time-market-data-forecasting){:target="_blank"} | [8th ↗](https://www.kaggle.com/competitions/jane-street-real-time-market-data-forecasting/writeups/evgeniia-grigoreva-private-lb-8th-solution){:target="_blank"} |
+
+### Crypto
+
+| Competition | Top Solutions |
+|-------------|---------------|
+| [DRW Crypto ↗](https://www.kaggle.com/competitions/drw-crypto-market-prediction){:target="_blank"} | [1st ↗](https://www.kaggle.com/competitions/drw-crypto-market-prediction/writeups/drw-solution-1st){:target="_blank"} · [11th ↗](https://www.kaggle.com/competitions/drw-crypto-market-prediction/writeups/linearregression){:target="_blank"} · [13th ↗](https://www.kaggle.com/competitions/drw-crypto-market-prediction/writeups/top-13-solution){:target="_blank"} |
+| [G-Research Crypto ↗](https://www.kaggle.com/competitions/g-research-crypto-forecasting){:target="_blank"} | [2nd ↗](https://www.kaggle.com/competitions/g-research-crypto-forecasting/writeups/nathaniel-maddux-2nd-place-solution){:target="_blank"} |
+
+### Optiver
+
+| Competition | Top Solutions |
+|-------------|---------------|
+| [Trading at the Close ↗](https://www.kaggle.com/competitions/optiver-trading-at-the-close){:target="_blank"} | [1st ↗](https://www.kaggle.com/competitions/optiver-trading-at-the-close/writeups/hyd-1st-place-solution){:target="_blank"} |
+| [Realized Volatility ↗](https://www.kaggle.com/competitions/optiver-realized-volatility-prediction){:target="_blank"} | [1st ↗](https://www.kaggle.com/competitions/optiver-realized-volatility-prediction/writeups/nyanp-1st-place-solution-nearest-neighbors){:target="_blank"} |
+
+### Other
+
+| Competition | Top Solutions |
+|-------------|---------------|
+| [Ubiquant ↗](https://www.kaggle.com/competitions/ubiquant-market-prediction){:target="_blank"} | [1st ↗](https://www.kaggle.com/competitions/ubiquant-market-prediction/writeups/k-i-y-1st-place-solution-our-betting-strategy){:target="_blank"} · [2nd ↗](https://www.kaggle.com/competitions/ubiquant-market-prediction/writeups/davide-stenner-2nd-place-solution-robust-cv-and-lg){:target="_blank"} · [3rd ↗](https://www.kaggle.com/competitions/ubiquant-market-prediction/writeups/hyd-3rd-place-solution-5-seeds-ensemble-transforme){:target="_blank"} |
+| [Winton Stock ↗](https://www.kaggle.com/competitions/the-winton-stock-market-challenge){:target="_blank"} | - |
+
+---
+
+Registration deadlines fill quickly. Apply early.

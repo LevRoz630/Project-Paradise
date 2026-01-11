@@ -1,42 +1,40 @@
 ---
-layout: project
+layout: page
 title: Platform
 permalink: /projects/platform/
 ---
 
-# Platform
 
-Student-oriented classroom learning platform. 
+[← Projects]({{ '/projects/' | relative_url }}) | [Problem Statement]({{ '/projects/platform/problem-statement/' | relative_url }}) | [Outline]({{ '/projects/platform/outline/' | relative_url }})
 
-### End Goal
+---
+
+Student-oriented backtesting and strategy hypothesis testing tool.
+
+<span class="badge">Python</span> <span class="badge">Docker</span> <span class="badge">Library Development</span>
+
+---
+
+## End Goal
 
 Give students an easy-to-learn tool with friction-less data loading and report compilation library to provide a one-fits-all strategy hypothesis testing tool.
 
-Connected to 
+**Helps Implement:** [Research Publications]({{ '/projects/research-publications/' | relative_url }})
 
-[Discontinued - LOB Market Simulation](https://www.notion.so/Discontinued-LOB-Market-Simulation-2df38a8638f880c58d60d40429c34194?pvs=21)
+---
 
-Helps Implement
+## Skills / Want to Learn
 
-[Research Publications](/projects/research-publications/)
+<span class="badge">Git</span> <span class="badge">REST API</span> <span class="badge">Data Management</span> <span class="badge">Docker</span> <span class="badge">Model Validation</span> <span class="badge">Time Series</span> <span class="badge">Library Development</span>
 
-Languages:
+---
 
-Python, SQL
-
-Skills/Want to Learn:
-Git, REST API, Data management, Docker, Model Validation, Time Series Modelling
+## Documentation
 
 ### Admin
 
-[Problem Statement](/projects/platform/problem-statement/)
+[Problem Statement]({{ '/projects/platform/problem-statement/' | relative_url }}) | [Solutions on Market]({{ '/projects/platform/solutions-on-market/' | relative_url }})
 
-[Solutions on the market](/projects/platform/solutions-on-market/)
+### Technical
 
-### **Outline**
-
-[Outline](/projects/platform/outline/)
-
-[Data Source](/projects/platform/data-source/)
-
-[Helpful Resources](/projects/platform/helpful-resources/)
+[Outline]({{ '/projects/platform/outline/' | relative_url }}) | [Data Source]({{ '/projects/platform/data-source/' | relative_url }}) | [Helpful Resources]({{ '/projects/platform/helpful-resources/' | relative_url }})

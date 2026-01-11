@@ -1,6 +1,0 @@
-# Update from last plan
-
-- We will **fork vectorbt v1** and rely on its execution/trading logic as-is (treated as trusted and backtested). The only “execution” work we do is **standardizing assumptions**: signals computed on bar close are **shifted +1** and executed at **next bar open**, with vectorbt’s default conflict rules and cost model; all `from_signals` parameters, dataset hash, and dependency versions are recorded for reproducibility.
-- The **data layer lives inside the vectorbt fork**: we keep vectorbt’s existing sources and add missing ones (first: **ccxt**) in `vectorbt.data`, ensuring they all return a canonical OHLCV format. The toolkit repo stays thin and stable, so adding sources doesn’t require refactoring reporting/permutation/registry.
-- Our `bttool` package is **minimal orchestration**: CLI (`bt run`, `bt list/show/diff`), deterministic resampling + gap logging, artifact export + schema validation, **versioned run store + registry index**, offline `report.html` plus `report.pdf` (HTML→PDF), and **permutation testing** by rerunning vectorbt on shuffled data/signals to build null distributions and p-values.
-- **Regime detection/analytics is removed from v1 entirely**, and **ydata-synthetic simulation/regime-stress scenarios are deferred to v2** (kept compatible by maintaining the same data and artifact contracts).

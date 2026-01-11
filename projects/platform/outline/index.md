@@ -4,13 +4,11 @@ title: Outline
 permalink: /projects/platform/outline/
 ---
 
-# Outline
-
 When confused see **Common Questions** section at the bottom of the page
 
 Update
 
-[Update from last plan](/projects/platform/outline/update-from-last-plan/)
+[Update from last plan]({{ '/projects/platform/outline/update-from-last-plan/' | relative_url }})
 
 ## Scope (v1)
 

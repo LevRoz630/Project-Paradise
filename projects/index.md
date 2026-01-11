@@ -5,47 +5,35 @@ permalink: /projects/
 description: Student-led quantitative research and development projects
 ---
 
-# Projects
-
-Our team works on practical projects that combine financial engineering, machine learning, and software development. Each project is designed to build real-world skills while contributing to the quant trading and research community.
+Our team works on practical projects that combine financial engineering, machine learning, and software development.
 
 ## Current Projects
 
-### Platform
-**Student-oriented backtesting platform for strategy development and testing**
+<div class="cards-grid">
+  <div class="card">
+    <h3>Platform</h3>
+    <p><strong>Backtesting platform for strategy development</strong></p>
+    <p>Easy-to-learn tool with frictionless data loading and report compilation for strategy hypothesis testing.</p>
+    <p><span class="badge">Python</span> <span class="badge">Docker</span></p>
+    <a href="{{ '/projects/platform/' | relative_url }}">View Project</a>
+  </div>
 
-Give students an easy-to-learn tool with friction-less data loading and report compilation library to provide a one-fits-all strategy hypothesis testing tool.
+  <div class="card">
+    <h3>Research Publications</h3>
+    <p><strong>Student-led research papers</strong></p>
+    <p>Supporting students in conducting original research and publishing findings in quantitative finance and algorithmic trading.</p>
+    <a href="{{ '/projects/research-publications/' | relative_url }}">View Project</a>
+  </div>
 
-**Languages:** Python, SQL
-**Skills:** Git, REST API, Data management, Docker, Model Validation, Time Series Modelling
-
-[Learn more about Platform →](/projects/platform/)
-
----
-
-### Research Publications
-**Development and review of student-led research papers**
-
-Supporting students in conducting original research and publishing findings in quantitative finance, algorithmic trading, and related fields.
-
-[Learn more about Research Publications →](/projects/research-publications/)
-
----
-
-### Internship Prep Platform
-**Learning platform improvement project**
-
-Helping develop and improve an educational platform focused on preparing students for quantitative finance and trading internships.
-
-[Learn more about Internship Prep Platform →](/projects/internship-prep-platform/)
-
----
-
-## Project Ideas
-
-- **Team Poker Games**: Using a platform/poker simulator, potentially inviting equity people at some point
-- And more to come...
+  <div class="card">
+    <h3>Internship Prep Platform (TBC)</h3>
+    <p><strong>Agent-forward interview prep</strong></p>
+    <p>LLM-powered platform that curates technical interview preparation from given resources.</p>
+    <p><span class="badge">TypeScript</span> <span class="badge">Python</span> <span class="badge">LLM</span></p>
+    <a href="{{ '/projects/internship-prep-platform/' | relative_url }}">View Project</a>
+  </div>
+</div>
 
 ## Get Involved
 
-Interested in contributing to any of these projects? Check out our [Repo Conventions](/resources/repo-conventions/) to understand our development standards, and reach out to one of our [supervisors](/team/supervisors/).
+Interested in contributing? Check our [Repo Conventions]({{ '/resources/repo-conventions/' | relative_url }}) and reach out to our [team]({{ '/team/' | relative_url }}).

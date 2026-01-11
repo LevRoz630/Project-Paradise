@@ -1,33 +1,43 @@
 ---
-layout: project
-title: TBC - Internship Prep Platform
+layout: page
+title: Internship Prep Platform (TBC)
 permalink: /projects/internship-prep-platform/
 ---
 
-# TBC - Internship Prep Platform
+[← Projects]({{ '/projects/' | relative_url }})
 
-Initialized by a supervisor https://www.linkedin.com/in/imenalsamarai/
+---
 
-### **End Goal**:
+## Status: To Be Confirmed
 
-This project is a part of the improvement and expansion of the existing platform that creates a resource-led prep material based of given job requirements.
+This project is currently in early planning stages.
 
-### **Admin:**
+---
 
-[Problem Statement](/projects/internship-prep-platform/problem-statement/)
+## Overview
 
-[Existing Solutions](/projects/internship-prep-platform/existing-solutions/)
+An agent-forward platform that curates preparation materials for technical interviews based on given resources.
 
-### Languages:
+| Aspect | Description |
+|--------|-------------|
+| Type | LLM-powered learning platform |
+| Focus | Technical interview preparation |
+| Approach | Agent-based curation of prep materials from provided resources |
 
-JS, TS, Python
+---
 
-### Skills/Want to Learn:
+## Technologies
 
-Git, LLM Context Management, LLM Architecture, Web Development
+<span class="badge">TypeScript</span> <span class="badge">Python</span> <span class="badge">LLM</span>
 
-### **Outline:**
+---
 
-[Outline](/projects/internship-prep-platform/outline/)
+## Skills / Want to Learn
 
-[Helpful Resources](/projects/internship-prep-platform/helpful-resources/)
+<span class="badge">Git</span> <span class="badge">LLM Context Management</span> <span class="badge">LLM Architecture</span> <span class="badge">Web Development</span>
+
+---
+
+## Contact
+
+Initialized by supervisor: [Imen Al Samarai ↗](https://www.linkedin.com/in/imenalsamarai/){:target="_blank"}
