@@ -23,6 +23,7 @@ header_pages:
   - competitions/index.md
   - team/index.md
   - resources/index.md
+  - join.md
 
 # Exclude from build
 exclude:

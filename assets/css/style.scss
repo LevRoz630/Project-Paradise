@@ -1,6 +1,10 @@
 ---
 ---
 
+$brand-color: #2D7A4A;
+$brand-color-light: lighten($brand-color, 40%);
+$brand-color-dark: darken($brand-color, 25%);
+
 @import "minima";
 
 /* Clean, Simple Design inspired by ERG */
@@ -63,14 +67,15 @@ p {
   line-height: 1.75;
 }
 
-a {
-  color: var(--green);
+a, a:visited {
+  color: var(--green) !important;
   text-decoration: none;
   font-weight: 500;
 }
 
 a:hover {
   text-decoration: underline;
+  color: var(--green) !important;
 }
 
 ul, ol {

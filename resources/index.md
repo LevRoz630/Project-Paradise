@@ -6,12 +6,6 @@ permalink: /resources/
 
 <p class="page-intro">Curated learning materials for quantitative finance and algorithmic trading.</p>
 
-<div class="get-started-box" style="margin-bottom: 2rem;">
-  <h3>Join Us</h3>
-  <p>Want to work on real projects and participate in trading competitions?</p>
-  <a href="{{ '/join/' | relative_url }}" class="btn">Apply Now</a>
-</div>
-
 ---
 
 ## Development Standards
