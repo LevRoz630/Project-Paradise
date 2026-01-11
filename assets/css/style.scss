@@ -494,3 +494,89 @@ p {
 section {
   margin: 3rem 0;
 }
+
+/* Notion-style Collapsible Sections */
+.collapsible-section {
+  margin: 1.5rem 0;
+  border: 1px solid var(--border-color);
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.section-toggle {
+  padding: 1rem 1.5rem;
+  background: var(--background-white);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  transition: background-color 0.2s ease;
+  user-select: none;
+}
+
+.section-toggle:hover {
+  background-color: var(--background-light);
+}
+
+.section-toggle::after {
+  content: "▼";
+  font-size: 0.75rem;
+  color: var(--text-secondary);
+  transition: transform 0.2s ease;
+}
+
+.section-toggle.collapsed::after {
+  transform: rotate(-90deg);
+}
+
+.section-toggle h2,
+.section-toggle h3,
+.section-toggle h4 {
+  margin: 0;
+  font-size: 1.25rem;
+  border: none;
+  padding: 0;
+}
+
+.section-content {
+  padding: 1.5rem;
+  background: var(--background-white);
+  border-top: 1px solid var(--border-color);
+}
+
+/* Table of Contents - Notion style */
+.toc {
+  background: var(--background-light);
+  border-radius: 6px;
+  padding: 1.5rem;
+  margin: 2rem 0;
+}
+
+.toc h2, .toc h3 {
+  margin-top: 0;
+  font-size: 1.125rem;
+  border: none;
+}
+
+.toc ul {
+  list-style: none;
+  padding-left: 1rem;
+}
+
+.toc li {
+  margin: 0.5rem 0;
+}
+
+.toc a {
+  color: var(--text-primary);
+  text-decoration: none;
+  display: block;
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+  transition: background-color 0.2s ease;
+}
+
+.toc a:hover {
+  background-color: var(--background-white);
+  color: var(--primary-color);
+}
