@@ -31,6 +31,16 @@ Our supervisors are experienced professionals in quantitative finance, trading, 
       <a href="{{ '/team/supervisors/george-nigmatulin/' | relative_url }}">View Profile</a>
     </div>
   </div>
+
+  <div class="card">
+    <img src="{{ '/assets/images/dmitry-zotikov.jpg' | relative_url }}" alt="Dmitry Zotikov" class="person-photo" />
+    <h3>Dmitry Zotikov</h3>
+    <p><strong>Position:</strong> Lead Quant. Analyst @ dxFeed Solutions</p>
+    <p>Quantitative analysis and financial data</p>
+    <div class="person-links">
+      <a href="{{ '/team/supervisors/dmitry-zotikov/' | relative_url }}">View Profile</a>
+    </div>
+  </div>
 </div>
 
 ---
