@@ -4,6 +4,26 @@ title: Competitions
 permalink: /competitions/
 ---
 
+## Our Write-Ups
+
+<div class="cards-grid">
+  <div class="card">
+    <h3>HKU x Avenir Trading Challenge</h3>
+    <p><strong>Top 10 & Top 11 / 300+ Worldwide</strong></p>
+    <p>Two teams competed in the Hong Kong trading challenge.</p>
+    <a href="{{ '/competitions/write-ups/#hku-x-avenir-trading-challenge' | relative_url }}">View Write-Up</a> · <a href="https://avenir.hk/trading-challenge" target="_blank">Competition ↗</a>
+  </div>
+
+  <div class="card">
+    <h3>QuantChallenge 2025</h3>
+    <p><strong>Maria Nesterenko, Pavlo Shkuropatskyi</strong></p>
+    <p>Quantitative trading competition overview and execution.</p>
+    <a href="{{ '/competitions/write-ups/#quantchallenge-2025' | relative_url }}">View Write-Up</a> · <a href="https://quantchallenge.org/" target="_blank">Competition ↗</a>
+  </div>
+</div>
+
+---
+
 ## Proprietary
 
 ### Citadel

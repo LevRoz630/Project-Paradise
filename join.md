@@ -4,10 +4,6 @@ title: Join Us
 permalink: /join/
 ---
 
-[← Home]({{ '/' | relative_url }}) | [Meet the Team]({{ '/team/' | relative_url }})
-
----
-
 ## Students
 
 We welcome students interested in quantitative finance, regardless of experience level. You'll work on real projects, participate in trading competitions, and learn from experienced mentors.
