@@ -4,22 +4,22 @@ title: Platform
 permalink: /projects/platform/
 ---
 
+[← Back to Projects]({{ '/projects/' | relative_url }})
 
-[← Projects]({{ '/projects/' | relative_url }}) | [Problem Statement]({{ '/projects/platform/problem-statement/' | relative_url }}) | [Outline]({{ '/projects/platform/outline/' | relative_url }})
+Student-oriented backtesting and strategy hypothesis testing tool. Easy-to-learn with friction-less data loading and publish-ready report generation.
 
----
-
-Student-oriented backtesting and strategy hypothesis testing tool.
-
-<span class="badge">Python</span> <span class="badge">Docker</span> <span class="badge">Library Development</span>
+<span class="badge">Python</span> <span class="badge">Docker</span> <span class="badge">vectorbt</span> <span class="badge">CCXT</span>
 
 ---
 
-## End Goal
+## What We're Building
 
-Give students an easy-to-learn tool with friction-less data loading and report compilation library to provide a one-fits-all strategy hypothesis testing tool.
-
-**Helps Implement:** [Research Publications]({{ '/projects/research-publications/' | relative_url }})
+| | |
+|---|---|
+| **Type** | Backtesting library + CLI tool |
+| **Focus** | Reproducible strategy testing for student societies |
+| **Backend** | Forked vectorbt v1 with extended data sources |
+| **Supports** | [Research Publications]({{ '/projects/research-publications/' | relative_url }}) |
 
 ---
 
@@ -31,10 +31,8 @@ Give students an easy-to-learn tool with friction-less data loading and report c
 
 ## Documentation
 
-### Admin
-
-[Problem Statement]({{ '/projects/platform/problem-statement/' | relative_url }}) | [Solutions on Market]({{ '/projects/platform/solutions-on-market/' | relative_url }})
-
-### Technical
-
-[Outline]({{ '/projects/platform/outline/' | relative_url }}) | [Data Source]({{ '/projects/platform/data-source/' | relative_url }}) | [Helpful Resources]({{ '/projects/platform/helpful-resources/' | relative_url }})
+| Page | Description |
+|------|-------------|
+| [Background]({{ '/projects/platform/background/' | relative_url }}) | Problem statement and existing solutions |
+| [Outline]({{ '/projects/platform/outline/' | relative_url }}) | Technical spec and development plan |
+| [Resources]({{ '/projects/platform/resources/' | relative_url }}) | Data sources and references |

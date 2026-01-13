@@ -4,10 +4,7 @@ title: Research Publications
 permalink: /projects/research-publications/
 ---
 
-
-[← Projects]({{ '/projects/' | relative_url }}) | [Outline]({{ '/projects/research-publications/outline/' | relative_url }})
-
----
+[← Back to Projects]({{ '/projects/' | relative_url }})
 
 Student-led and industry reviewed publications in quantitative finance and algorithmic trading.
 
@@ -21,6 +18,8 @@ Student-led and industry reviewed publications in quantitative finance and algor
 
 ---
 
-## Links
+## Documentation
 
-[Project Outline]({{ '/projects/research-publications/outline/' | relative_url }})
+| Page | Description |
+|------|-------------|
+| [Outline]({{ '/projects/research-publications/outline/' | relative_url }}) | How papers get written and reviewed |

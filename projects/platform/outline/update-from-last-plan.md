@@ -4,6 +4,10 @@ title: Update from last plan
 permalink: /projects/platform/outline/update-from-last-plan/
 ---
 
+[← Back to Outline]({{ '/projects/platform/outline/' | relative_url }})
+
+---
+
 | Change | Description |
 |--------|-------------|
 | **Vectorbt Fork** | Fork vectorbt v1 and use its execution/trading logic as-is. Standardize assumptions: signals computed on bar close are **shifted +1** and executed at **next bar open**. Record all `from_signals` parameters, dataset hash, and dependency versions. |
