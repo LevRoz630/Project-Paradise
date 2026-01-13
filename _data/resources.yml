@@ -197,3 +197,124 @@
   tags: ["GPU", "cloud"]
   description: "Affordable GPU server rental for ML training"
   type: "external"
+
+- title: "CCXT"
+  url: "https://github.com/ccxt/ccxt"
+  category: "tools"
+  tags: ["crypto", "data"]
+  description: "Unified API for 100+ cryptocurrency exchanges"
+  type: "external"
+
+- title: "Yahoo Finance"
+  url: "https://finance.yahoo.com/"
+  category: "tools"
+  tags: ["equities", "data"]
+  description: "Free delayed equity market data"
+  type: "external"
+
+- title: "Alpha Vantage"
+  url: "https://www.alphavantage.co/"
+  category: "tools"
+  tags: ["API", "data"]
+  description: "Multi-asset market data with free tier"
+  type: "external"
+
+- title: "Polygon.io"
+  url: "https://polygon.io/"
+  category: "tools"
+  tags: ["API", "data"]
+  description: "High-quality multi-asset market data (paid)"
+  type: "external"
+
+- title: "pytest"
+  url: "https://pytest.org/"
+  category: "tools"
+  tags: ["testing", "python"]
+  description: "Python testing framework"
+  type: "external"
+
+- title: "mypy"
+  url: "https://mypy.readthedocs.io/"
+  category: "tools"
+  tags: ["typing", "python"]
+  description: "Static type checker for Python"
+  type: "external"
+
+# Technical Resources
+- title: "Two Sigma: ML Regime Modeling"
+  url: "https://www.twosigma.com/articles/a-machine-learning-approach-to-regime-modeling/"
+  category: "courses"
+  tags: ["ML", "regimes"]
+  description: "Machine learning methods for identifying market regimes"
+  type: "external"
+
+- title: "Permutation Testing (Video)"
+  url: "https://www.youtube.com/watch?v=NLBXgSmRBgU&t=808s"
+  category: "courses"
+  tags: ["statistics", "testing"]
+  description: "Video explanation of permutation-based significance testing"
+  type: "external"
+
+- title: "QuantStart"
+  url: "https://www.quantstart.com/"
+  category: "courses"
+  tags: ["beginner", "tutorials"]
+  description: "Beginner-friendly quant finance tutorials and articles"
+  type: "external"
+
+- title: "Quantopian Lectures"
+  url: "https://gist.github.com/ih2502mk/50d8f7feb614c8676383431b056f4291"
+  category: "courses"
+  tags: ["notebooks", "quant"]
+  description: "Archived lecture notebooks on quantitative topics"
+  type: "external"
+
+- title: "QuantEcon"
+  url: "https://quantecon.org/"
+  category: "courses"
+  tags: ["economics", "python"]
+  description: "Open-source economics and finance lectures"
+  type: "external"
+
+# Books - Additional
+- title: "Advances in Financial ML (Wiley)"
+  url: "https://www.wiley.com/en-us/Advances+in+Financial+Machine+Learning-p-9781119482086"
+  category: "books"
+  tags: ["ML", "finance"]
+  description: "Marcos Lopez de Prado's seminal work (official link)"
+  type: "external"
+
+- title: "Python for Finance (O'Reilly)"
+  url: "https://www.oreilly.com/library/view/python-for-finance/9781492024323/"
+  category: "books"
+  tags: ["python", "finance"]
+  description: "Yves Hilpisch's comprehensive Python finance guide"
+  type: "external"
+
+- title: "White Reality Check (2000)"
+  url: "https://www.jstor.org/stable/2999445"
+  category: "books"
+  tags: ["paper", "statistics"]
+  description: "Foundation for permutation testing in finance - Econometrica"
+  type: "external"
+
+- title: "Romano & Wolf Step-Down (2005)"
+  url: "https://www.jstor.org/stable/3598676"
+  category: "books"
+  tags: ["paper", "statistics"]
+  description: "Stepwise multiple testing as formalized data snooping"
+  type: "external"
+
+- title: "Harvey et al. Cross-Section (2016)"
+  url: "https://academic.oup.com/rfs/article/29/1/5/1843824"
+  category: "books"
+  tags: ["paper", "finance"]
+  description: "...and the Cross-Section of Expected Returns"
+  type: "external"
+
+- title: "Pseudo-Mathematics (2014)"
+  url: "https://www.ams.org/notices/201405/rnoti-p458.pdf"
+  category: "books"
+  tags: ["paper", "critique"]
+  description: "Bailey et al. on financial charlatanism - AMS Notices"
+  type: "external"

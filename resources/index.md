@@ -5,17 +5,41 @@ permalink: /resources/
 ---
 
 <div class="resource-filters">
-  <button class="filter-chip active" data-filter="all">All</button>
-  <button class="filter-chip" data-filter="getting-started">Getting Started</button>
-  <button class="filter-chip" data-filter="dev">Dev</button>
-  <button class="filter-chip" data-filter="courses">Courses</button>
-  <button class="filter-chip" data-filter="books">Books</button>
-  <button class="filter-chip" data-filter="tools">Tools</button>
+  <div class="filter-row">
+    <span class="filter-label">Category:</span>
+    <button class="filter-chip active" data-filter="all">All</button>
+    <button class="filter-chip" data-filter="getting-started">Getting Started</button>
+    <button class="filter-chip" data-filter="dev">Dev</button>
+    <button class="filter-chip" data-filter="courses">Courses</button>
+    <button class="filter-chip" data-filter="books">Books</button>
+    <button class="filter-chip" data-filter="tools">Tools</button>
+  </div>
+  <div class="filter-row">
+    <span class="filter-label">Tags:</span>
+    <div class="tag-filters">
+      {% assign all_tags = "" | split: "" %}
+      {% for resource in site.data.resources %}
+        {% for tag in resource.tags %}
+          {% unless all_tags contains tag %}
+            {% assign all_tags = all_tags | push: tag %}
+          {% endunless %}
+        {% endfor %}
+      {% endfor %}
+      {% assign sorted_tags = all_tags | sort %}
+      {% for tag in sorted_tags %}
+        <button class="tag-chip" data-tag="{{ tag }}">{{ tag }}</button>
+      {% endfor %}
+    </div>
+  </div>
+  <div class="filter-actions">
+    <button class="clear-filters" id="clear-tags">Clear tags</button>
+    <span class="result-count" id="result-count"></span>
+  </div>
 </div>
 
 <div class="resources-grid">
 {% for resource in site.data.resources %}
-  <div class="resource-card" data-category="{{ resource.category }}">
+  <div class="resource-card" data-category="{{ resource.category }}" data-tags="{{ resource.tags | join: ',' }}">
     <h4>
       {% if resource.type == 'internal' %}
         <a href="{{ resource.url | relative_url }}">{{ resource.title }}</a>
@@ -35,26 +59,64 @@ permalink: /resources/
 
 <script>
 document.addEventListener('DOMContentLoaded', function() {
-  const filters = document.querySelectorAll('.filter-chip');
+  const categoryFilters = document.querySelectorAll('.filter-chip');
+  const tagFilters = document.querySelectorAll('.tag-chip');
   const cards = document.querySelectorAll('.resource-card');
+  const clearBtn = document.getElementById('clear-tags');
+  const resultCount = document.getElementById('result-count');
 
-  filters.forEach(filter => {
+  let activeCategory = 'all';
+  let activeTags = new Set();
+
+  function updateResults() {
+    let visible = 0;
+    cards.forEach(card => {
+      const cardCategory = card.dataset.category;
+      const cardTags = card.dataset.tags.split(',');
+
+      const categoryMatch = activeCategory === 'all' || cardCategory === activeCategory;
+      const tagMatch = activeTags.size === 0 || [...activeTags].some(tag => cardTags.includes(tag));
+
+      if (categoryMatch && tagMatch) {
+        card.style.display = '';
+        visible++;
+      } else {
+        card.style.display = 'none';
+      }
+    });
+    resultCount.textContent = visible + ' resource' + (visible !== 1 ? 's' : '');
+  }
+
+  categoryFilters.forEach(filter => {
     filter.addEventListener('click', function() {
-      // Update active state
-      filters.forEach(f => f.classList.remove('active'));
+      categoryFilters.forEach(f => f.classList.remove('active'));
       this.classList.add('active');
-
-      // Filter cards
-      const category = this.dataset.filter;
-      cards.forEach(card => {
-        if (category === 'all' || card.dataset.category === category) {
-          card.style.display = '';
-        } else {
-          card.style.display = 'none';
-        }
-      });
+      activeCategory = this.dataset.filter;
+      updateResults();
     });
   });
+
+  tagFilters.forEach(filter => {
+    filter.addEventListener('click', function() {
+      const tag = this.dataset.tag;
+      if (activeTags.has(tag)) {
+        activeTags.delete(tag);
+        this.classList.remove('active');
+      } else {
+        activeTags.add(tag);
+        this.classList.add('active');
+      }
+      updateResults();
+    });
+  });
+
+  clearBtn.addEventListener('click', function() {
+    activeTags.clear();
+    tagFilters.forEach(f => f.classList.remove('active'));
+    updateResults();
+  });
+
+  updateResults();
 });
 </script>
 
