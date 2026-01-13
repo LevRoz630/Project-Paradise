@@ -34,6 +34,28 @@ permalink: /projects/
   </div>
 </div>
 
+---
+
+## Competition Projects
+
+<div class="cards-grid">
+  <div class="card">
+    <h3>German Electricity</h3>
+    <p><strong>Energy market prediction</strong></p>
+    <p>Forecasting German electricity prices and consumption patterns for the Ensimag IF competition.</p>
+    <p><span class="badge">Python</span> <span class="badge">Time Series</span> <span class="badge">ML</span></p>
+    <a href="{{ '/projects/german-electricity/' | relative_url }}">View Project</a>
+  </div>
+
+  <div class="card">
+    <h3>LOB Prediction</h3>
+    <p><strong>Limit Order Book modeling</strong></p>
+    <p>Modeling limit order book dynamics from given market data for the Predictorium competition.</p>
+    <p><span class="badge">Python</span> <span class="badge">Market Microstructure</span> <span class="badge">ML</span></p>
+    <a href="{{ '/projects/lob-simulation/' | relative_url }}">View Project</a>
+  </div>
+</div>
+
 ## Get Involved
 
 Interested in contributing? Check our [Repo Conventions]({{ '/resources/repo-conventions/' | relative_url }}) and reach out to our [team]({{ '/team/' | relative_url }}).
