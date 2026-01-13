@@ -10,4 +10,11 @@ linkedin: https://www.linkedin.com/in/zot/
 
 ## About
 
-Lead Quantitative Analyst at dxFeed Solutions with expertise in quantitative analysis and financial data solutions.
+Taking stochastic models from beautiful math to brutal markets.
+
+7+ years in quant research at dxFeed - building neural networks for LOB prediction, index families (Crypto/FX), and statistical arbitrage strategies.
+
+## Background
+
+- CQF (Quantitative Finance)
+- Saint Petersburg State University (Applied Mathematics)
