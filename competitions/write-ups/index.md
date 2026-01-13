@@ -16,7 +16,7 @@ permalink: /competitions/write-ups/
 | Document | Team 1 | Team 2 |
 |----------|--------|--------|
 | Overview | [HKU Overview]({{ '/competitions/write-ups/hku/hku-ov/' | relative_url }}) | Same |
-| Execution | [Team 1]({{ '/competitions/write-ups/hku/hku-ex-1/' | relative_url }}) · [Code ↗](https://github.com/LevRoz630/docker-hku){:target="_blank"} | [Team 2]({{ '/competitions/write-ups/hku/hku-ex-2/' | relative_url }}) |
+| Execution | [Team 1]({{ '/competitions/write-ups/hku/hku-ex-1/' | relative_url }}) · [Code ↗](https://github.com/LevRoz630/docker-hku-avenir){:target="_blank"} | [Team 2]({{ '/competitions/write-ups/hku/hku-ex-2/' | relative_url }}) |
 | Authors | Lev, Quick Isaac | Anthony Grishin, Patrick Ridge, George Gui |
 
 ---

@@ -29,6 +29,8 @@ header_pages:
 exclude:
   - _notion_export/
   - README.md
+  - TODO.md
+  - "**/TEMPLATE_*.md"
   - Gemfile
   - Gemfile.lock
   - vendor/

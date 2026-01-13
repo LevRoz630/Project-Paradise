@@ -13,12 +13,22 @@ Our supervisors are experienced professionals in quantitative finance, trading, 
 
 <div class="team-cards">
   <div class="card">
-    <img src="/Project-Paradise/assets/images/profile-icon.jpg" alt="Jackie Jack" class="person-photo" />
-    <h3>Jackie Jack</h3>
-    <p><strong>Position:</strong> Burger Price Modeller @ CrabsyCrabs</p>
-    <p>Industry professional guiding Project Paradise members in quantitative finance.</p>
+    <img src="{{ '/assets/images/ruslan-malsagov.jpg' | relative_url }}" alt="Ruslan Malsagov" class="person-photo" />
+    <h3>Ruslan Malsagov</h3>
+    <p><strong>Position:</strong> Quant Trading @ Flow Traders</p>
+    <p>AI/ML-driven automated trading systems, TradFi and Crypto</p>
     <div class="person-links">
-      <a href="{{ '/team/supervisors/jackie-jack/' | relative_url }}">View Profile →</a>
+      <a href="{{ '/team/supervisors/ruslan-malsagov/' | relative_url }}">View Profile</a>
+    </div>
+  </div>
+
+  <div class="card">
+    <img src="{{ '/assets/images/george-nigmatulin.jpg' | relative_url }}" alt="George Nigmatulin" class="person-photo" />
+    <h3>George Nigmatulin</h3>
+    <p><strong>Position:</strong> PhD Researcher @ University of Oxford</p>
+    <p>Generative AI for market microstructure</p>
+    <div class="person-links">
+      <a href="{{ '/team/supervisors/george-nigmatulin/' | relative_url }}">View Profile</a>
     </div>
   </div>
 </div>

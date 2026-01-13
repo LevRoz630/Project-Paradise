@@ -19,6 +19,8 @@ permalink: /resources/
     <h4>
       {% if resource.type == 'internal' %}
         <a href="{{ resource.url | relative_url }}">{{ resource.title }}</a>
+      {% elsif resource.type == 'book' %}
+        {{ resource.title }}
       {% else %}
         <a href="{{ resource.url }}" target="_blank">{{ resource.title }} <span class="external-icon">↗</span></a>
       {% endif %}
@@ -58,4 +60,6 @@ document.addEventListener('DOMContentLoaded', function() {
 
 ---
 
-<p style="color: var(--text-light); font-size: 0.875rem;">Some links go to Anna's Archive for academic materials.</p>
+<div class="note" style="background: var(--bg-gray); border-left-color: var(--text-light);">
+<p style="margin-bottom: 0;"><strong style="color: var(--text);">Books:</strong> ISBNs are provided for purchasing or library access. For academic/personal use, books may also be available on <a href="https://annas-archive.li/" target="_blank">Anna's Archive ↗</a>. Please respect copyright laws in your jurisdiction.</p>
+</div>

@@ -115,7 +115,7 @@ We participate in quantitative trading competitions and data science challenges 
 <p>Industry professionals can join as mentors to guide students through projects, review code, and share real-world experience. Flexible time commitment.</p>
 
 <div style="text-align: center; margin-top: 1.5rem;">
-  <a href="{{ '/join/' | relative_url }}" class="btn">Apply Now</a>
+  <a href="{{ '/join/#apply' | relative_url }}" class="btn">Apply Now</a>
   <a href="{{ '/team/' | relative_url }}" class="btn btn-secondary" style="margin-left: 1rem;">Meet the Team</a>
 </div>
 

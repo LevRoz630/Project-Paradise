@@ -1,4 +1,11 @@
 # Development
+- title: "Adding Pages"
+  url: "/resources/adding-pages/"
+  category: "dev"
+  tags: ["guide", "contributing"]
+  description: "How to add and modify pages on this site"
+  type: "internal"
+
 - title: "Repo Conventions"
   url: "/resources/repo-conventions/"
   category: "dev"
@@ -128,61 +135,53 @@
   type: "external"
 
 # Books
-- title: "Statistics Textbook"
-  url: "https://www.springer.com/gp/book/9783031391897"
+- title: "All of Statistics"
   category: "books"
   tags: ["statistics", "theory"]
-  description: "Comprehensive statistics reference (ISBN: 3031391896)"
-  type: "external"
+  description: "Larry Wasserman - Comprehensive statistics reference (ISBN: 978-0387402727)"
+  type: "book"
 
 - title: "Python for Finance"
-  url: "https://annas-archive.org/md5/73c51b4cae43a421626aa460a288fbc9"
   category: "books"
   tags: ["python", "finance"]
-  description: "Mastering data-driven finance with Python"
-  type: "external"
+  description: "Yves Hilpisch - Mastering data-driven finance (ISBN: 978-1492024330)"
+  type: "book"
 
-- title: "Hands-on ML"
-  url: "https://pcm.annas-archive.org/search?index=&page=1&q=1098125975&display=&sort="
+- title: "Hands-On Machine Learning"
   category: "books"
   tags: ["ML", "practical"]
-  description: "Hands-on machine learning with sklearn, keras, tensorflow"
-  type: "external"
+  description: "Aurelien Geron - Sklearn, Keras, TensorFlow (ISBN: 978-1098125974)"
+  type: "book"
 
-- title: "Advances in Financial ML"
-  url: "https://de.annas-archive.org/md5/b9a2e4a251b7c534d319daa3b50a2761"
+- title: "Advances in Financial Machine Learning"
   category: "books"
   tags: ["ML", "finance"]
-  description: "De Prado's advanced financial machine learning techniques"
-  type: "external"
+  description: "Marcos Lopez de Prado - Advanced quant ML techniques (ISBN: 978-1119482086)"
+  type: "book"
 
-- title: "Green Book"
-  url: "https://annas-archive.org/md5/5cdb5a9e69a4191da3e72e4306277a87"
+- title: "A Practical Guide To Quantitative Finance Interviews"
   category: "books"
   tags: ["interview", "quant"]
-  description: "Classic quant interview preparation book"
-  type: "external"
+  description: "Xinfeng Zhou - The 'Green Book' for quant interviews (ISBN: 978-1438236667)"
+  type: "book"
 
 - title: "Heard on the Street"
-  url: "https://annas-archive.org/md5/971defe11ca16eaa42cb4b3db6e26471"
   category: "books"
   tags: ["interview", "finance"]
-  description: "Quantitative questions from Wall Street job interviews"
-  type: "external"
+  description: "Timothy Falcon Crack - Wall Street interview questions (ISBN: 978-0994138699)"
+  type: "book"
 
-- title: "Short-cut Math"
-  url: "https://annas-archive.org/md5/68f5affc0b1ad8fc70be115c3050fa04"
+- title: "Short-Cut Math"
   category: "books"
   tags: ["math", "interview"]
-  description: "Mental math shortcuts for quick calculations"
-  type: "external"
+  description: "Gerard W. Kelly - Mental math shortcuts (ISBN: 978-0486246116)"
+  type: "book"
 
 - title: "Essential Poker Math"
-  url: "https://annas-archive.org/md5/04ee8ac2731df12fecb9fb21c97324ca"
   category: "books"
   tags: ["poker", "probability"]
-  description: "Probability and game theory applied to poker"
-  type: "external"
+  description: "Alton Hardin - Probability and expected value (ISBN: 978-1530927081)"
+  type: "book"
 
 - title: "MIT Poker Theory Course"
   url: "https://ocw.mit.edu/courses/15-s50-poker-theory-and-analytics-january-iap-2015/download/"

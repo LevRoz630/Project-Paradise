@@ -12,17 +12,27 @@ permalink: /team/
 
 <div class="team-cards">
   <div class="card">
-    <img src="/Project-Paradise/assets/images/profile-icon.jpg" alt="Jackie Jack" class="person-photo" />
-    <h3>Jackie Jack</h3>
-    <p><strong>Position:</strong> Burger Price Modeller @ CrabsyCrabs</p>
-    <p>Industry professional guiding Project Paradise members in quantitative finance.</p>
+    <img src="{{ '/assets/images/ruslan-malsagov.jpg' | relative_url }}" alt="Ruslan Malsagov" class="person-photo" />
+    <h3>Ruslan Malsagov</h3>
+    <p><strong>Position:</strong> Quant Trading @ Flow Traders</p>
+    <p>AI/ML-driven automated trading systems</p>
     <div class="person-links">
-      <a href="{{ '/team/supervisors/jackie-jack/' | relative_url }}">View Profile →</a>
+      <a href="{{ '/team/supervisors/ruslan-malsagov/' | relative_url }}">View Profile</a>
+    </div>
+  </div>
+
+  <div class="card">
+    <img src="{{ '/assets/images/george-nigmatulin.jpg' | relative_url }}" alt="George Nigmatulin" class="person-photo" />
+    <h3>George Nigmatulin</h3>
+    <p><strong>Position:</strong> PhD Researcher @ Oxford</p>
+    <p>Generative AI for market microstructure</p>
+    <div class="person-links">
+      <a href="{{ '/team/supervisors/george-nigmatulin/' | relative_url }}">View Profile</a>
     </div>
   </div>
 </div>
 
-[View All Supervisors →]({{ '/team/supervisors/' | relative_url }})
+[View All Supervisors]({{ '/team/supervisors/' | relative_url }})
 
 ---
 
@@ -30,17 +40,27 @@ permalink: /team/
 
 <div class="team-cards">
   <div class="card">
-    <img src="/Project-Paradise/assets/images/profile-icon.jpg" alt="John Johnson" class="person-photo" />
-    <h3>John Johnson</h3>
-    <p><strong>University:</strong> University of Atlantida</p>
-    <p><strong>Interests:</strong> Research, Software Engineering, Trading</p>
+    <img src="{{ '/assets/images/jonathan-kurniawan.jpg' | relative_url }}" alt="Jonathan Febrian Kurniawan" class="person-photo" />
+    <h3>Jonathan</h3>
+    <p><strong>University:</strong> London School of Economics</p>
+    <p><strong>Interests:</strong> Derivatives, Statistics, Quant Finance</p>
     <div class="person-links">
-      <a href="{{ '/team/members/john-johnson/' | relative_url }}">View Profile →</a>
+      <a href="{{ '/team/members/jonathan-kurniawan/' | relative_url }}">View Profile</a>
+    </div>
+  </div>
+
+  <div class="card">
+    <img src="{{ '/assets/images/denys-sta.jpg' | relative_url }}" alt="Denys StA" class="person-photo" />
+    <h3>Denys</h3>
+    <p><strong>University:</strong> University of St Andrews</p>
+    <p><strong>Interests:</strong> Sports, Software Engineering, Trading</p>
+    <div class="person-links">
+      <a href="{{ '/team/members/denys-sta/' | relative_url }}">View Profile</a>
     </div>
   </div>
 </div>
 
-[View All Members →]({{ '/team/members/' | relative_url }})
+[View All Members]({{ '/team/members/' | relative_url }})
 
 ---
 

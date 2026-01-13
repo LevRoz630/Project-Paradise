@@ -4,7 +4,7 @@ title: HKU Team 1 - Execution
 ---
 
 
-[← Overview]({{ '/competitions/write-ups/hku/hku-ov/' | relative_url }}) | [Team 2 →]({{ '/competitions/write-ups/hku/hku-ex-2/' | relative_url }}) | [Code ↗](https://github.com/LevRoz630/docker-hku){:target="_blank"}
+[← Overview]({{ '/competitions/write-ups/hku/hku-ov/' | relative_url }}) | [Team 2 →]({{ '/competitions/write-ups/hku/hku-ex-2/' | relative_url }}) | [Code ↗](https://github.com/LevRoz630/docker-hku-avenir){:target="_blank"}
 
 ---
 

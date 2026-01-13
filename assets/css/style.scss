@@ -479,6 +479,29 @@ pre code {
   color: var(--green);
 }
 
+/* Social icons in footer */
+.social-links {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.social-links a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.social-links .svg-icon {
+  width: 24px;
+  height: 24px;
+  fill: var(--text-light);
+}
+
+.social-links .svg-icon:hover {
+  fill: var(--green);
+}
+
 /* Forms */
 .join-form {
   background: var(--bg);
