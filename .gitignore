@@ -31,3 +31,4 @@ env/
 
 # Notion export backup (keep original files)
 # _notion_export/
+.claude/

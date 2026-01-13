@@ -13,7 +13,7 @@ permalink: /projects/
     <h3>Platform</h3>
     <p><strong>Backtesting platform for strategy development</strong></p>
     <p>Easy-to-learn tool with frictionless data loading and report compilation for strategy hypothesis testing.</p>
-    <p><span class="badge">Python</span> <span class="badge">Docker</span></p>
+    <p><span class="badge">Python</span> <span class="badge">Docker</span> <span class="badge">Library Development</span></p>
     <a href="{{ '/projects/platform/' | relative_url }}">View Project</a>
   </div>
 
@@ -21,6 +21,7 @@ permalink: /projects/
     <h3>Research Publications</h3>
     <p><strong>Student-led research papers</strong></p>
     <p>Supporting students in conducting original research and publishing findings in quantitative finance and algorithmic trading.</p>
+    <p><span class="badge">Python</span> <span class="badge">Research</span></p>
     <a href="{{ '/projects/research-publications/' | relative_url }}">View Project</a>
   </div>
 

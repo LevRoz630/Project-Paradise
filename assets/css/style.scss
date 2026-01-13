@@ -346,6 +346,32 @@ table tr:hover {
   margin: 0.25rem;
 }
 
+/* Quick Links */
+.quick-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: 1rem 0;
+}
+
+.quick-links a {
+  display: inline-block;
+  padding: 0.4rem 0.75rem;
+  background: var(--bg-gray);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  color: var(--text);
+  font-size: 0.875rem;
+  font-weight: 500;
+  text-decoration: none;
+  transition: all 0.2s;
+}
+
+.quick-links a:hover {
+  border-color: var(--green);
+  color: var(--green);
+}
+
 /* Code blocks */
 pre, code {
   background: var(--bg-gray);

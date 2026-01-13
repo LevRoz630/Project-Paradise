@@ -4,25 +4,6 @@ title: Competitions
 permalink: /competitions/
 ---
 
-[Write-Ups]({{ '/competitions/write-ups/' | relative_url }}) | [Conventions]({{ '/competitions/write-ups/conventions/' | relative_url }}) | [Resources]({{ '/resources/' | relative_url }})
-
----
-
-## 2026 Upcoming
-
-| Competition | Details | Link |
-|-------------|---------|------|
-| Harvard UTC | Individual apps → random teams | [Site ↗](https://www.harvarduqt.com/competition){:target="_blank"} |
-| Yale UTC | Deadline: 11th Jan | [Site ↗](https://yutc.org/){:target="_blank"} |
-| UChicago TC | Teams of 3-4 | [Site ↗](https://tradingcompetition.uchicago.edu/){:target="_blank"} |
-| Rotman ITC | Teams of 4-6, same university | [Site ↗](https://www.rotman.utoronto.ca/faculty-and-research/education-labs/bmo-financial-group-finance-research-and-trading-lab/rotman-international-trading-competition/){:target="_blank"} |
-| Global Quant | Less student-focused | [Site ↗](https://algogene.com/contest/quant){:target="_blank"} |
-| Ensimag IF | German electricity market | [Kaggle ↗](https://www.kaggle.com/competitions/ensimag-if-2025/data){:target="_blank"} |
-
-[Full 2026 List by Christina Qi ↗](https://www.linkedin.com/pulse/2026-quant-trading-competitions-events-students-links-christina-qi-zygjc){:target="_blank"}
-
----
-
 ## Proprietary
 
 ### Citadel
@@ -82,4 +63,21 @@ permalink: /competitions/
 
 ---
 
+## Upcoming 2026
+
+| Competition | Details | Link |
+|-------------|---------|------|
+| Harvard UTC | Individual apps → random teams | [Site ↗](https://www.harvarduqt.com/competition){:target="_blank"} |
+| Yale UTC | Deadline: 11th Jan | [Site ↗](https://yutc.org/){:target="_blank"} |
+| UChicago TC | Teams of 3-4 | [Site ↗](https://tradingcompetition.uchicago.edu/){:target="_blank"} |
+| Rotman ITC | Teams of 4-6, same university | [Site ↗](https://www.rotman.utoronto.ca/faculty-and-research/education-labs/bmo-financial-group-finance-research-and-trading-lab/rotman-international-trading-competition/){:target="_blank"} |
+| Global Quant | Less student-focused | [Site ↗](https://algogene.com/contest/quant){:target="_blank"} |
+| Ensimag IF | German electricity market | [Kaggle ↗](https://www.kaggle.com/competitions/ensimag-if-2025/data){:target="_blank"} |
+
+[Full 2026 List by Christina Qi ↗](https://www.linkedin.com/pulse/2026-quant-trading-competitions-events-students-links-christina-qi-zygjc){:target="_blank"}
+
 Registration deadlines fill quickly. Apply early.
+
+---
+
+<p style="color: var(--text-light); font-size: 0.95rem;">Looking for preparation material? We've collected <a href="{{ '/resources/' | relative_url }}">helpful resources →</a></p>
