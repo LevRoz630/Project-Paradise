@@ -69,6 +69,26 @@ permalink: /
   </div>
 </div>
 
+## Current Competitions
+
+<div class="cards-grid">
+  <div class="card">
+    <h3>German Electricity</h3>
+    <p><strong>Ensimag IF</strong></p>
+    <p>Energy market price forecasting.</p>
+    <p><span class="badge">Python</span> <span class="badge">Time Series</span> <span class="badge">ML</span></p>
+    <a href="{{ '/projects/german-electricity/' | relative_url }}">Learn More</a>
+  </div>
+
+  <div class="card">
+    <h3>LOB Prediction</h3>
+    <p><strong>Predictorium (Wunderfund)</strong></p>
+    <p>Limit order book modeling from market data.</p>
+    <p><span class="badge">Python</span> <span class="badge">Market Microstructure</span> <span class="badge">ML</span></p>
+    <a href="{{ '/projects/lob-simulation/' | relative_url }}">Learn More</a>
+  </div>
+</div>
+
 ## Competitions
 
 We participate in quantitative trading competitions and data science challenges from top firms. Check out our documented strategies and upcoming competitions.
