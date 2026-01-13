@@ -92,7 +92,8 @@ permalink: /competitions/
 | UChicago TC | Teams of 3-4 | [Site ↗](https://tradingcompetition.uchicago.edu/){:target="_blank"} |
 | Rotman ITC | Teams of 4-6, same university | [Site ↗](https://www.rotman.utoronto.ca/faculty-and-research/education-labs/bmo-financial-group-finance-research-and-trading-lab/rotman-international-trading-competition/){:target="_blank"} |
 | Global Quant | Less student-focused | [Site ↗](https://algogene.com/contest/quant){:target="_blank"} |
-| Ensimag IF | German electricity market | [Kaggle ↗](https://www.kaggle.com/competitions/ensimag-if-2025/data){:target="_blank"} |
+| Ensimag IF | Energy market prediction | [Kaggle ↗](https://www.kaggle.com/competitions/ensimag-if-2025){:target="_blank"} |
+| Predictorium | German prediction challenge | [Site ↗](https://wundernn.io/predictorium){:target="_blank"} |
 
 [Full 2026 List by Christina Qi ↗](https://www.linkedin.com/pulse/2026-quant-trading-competitions-events-students-links-christina-qi-zygjc){:target="_blank"}
 
