@@ -2,28 +2,28 @@
 - title: "Adding Pages"
   url: "/resources/adding-pages/"
   category: "dev"
-  tags: ["guide", "contributing"]
+  tags: ["guide"]
   description: "How to add and modify pages on this site"
   type: "internal"
 
 - title: "Repo Conventions"
   url: "/resources/repo-conventions/"
   category: "dev"
-  tags: ["guidelines", "standards"]
+  tags: ["guide"]
   description: "Project Paradise contribution guidelines and code standards"
   type: "internal"
 
 - title: "GitHub Flow"
   url: "https://docs.github.com/en/get-started/using-github/github-flow"
   category: "dev"
-  tags: ["workflow", "git"]
+  tags: ["git"]
   description: "Branch-based workflow for collaboration"
   type: "external"
 
 - title: "GitHub Projects"
   url: "https://docs.github.com/en/issues/planning-and-tracking-with-projects"
   category: "dev"
-  tags: ["planning", "tracking"]
+  tags: ["git"]
   description: "Plan and track work with GitHub Projects"
   type: "external"
 
@@ -31,77 +31,77 @@
 - title: "How to Read a Paper"
   url: "http://ccr.sigcomm.org/online/files/p83-keshavA.pdf"
   category: "getting-started"
-  tags: ["research", "reading"]
+  tags: ["research"]
   description: "Essential 2-page guide on reading academic papers efficiently"
   type: "external"
 
 - title: "Rules of Machine Learning"
   url: "https://developers.google.com/machine-learning/guides/rules-of-ml"
   category: "getting-started"
-  tags: ["ML", "best practices"]
+  tags: ["ML"]
   description: "Google's best practices for ML engineering"
   type: "external"
 
 - title: "Buy-Side Quant Job Advice"
   url: "https://sangmino.github.io/Documents/r60.pdf?ref=hackernoon.com"
   category: "getting-started"
-  tags: ["career", "quant"]
+  tags: ["career"]
   description: "Practical advice for breaking into buy-side quant roles"
   type: "external"
 
 - title: "Breaking into Quant Trading"
   url: "https://hackernoon.com/breaking-into-quant-trading-a-practical-no-fluff-guide"
   category: "getting-started"
-  tags: ["career", "trading"]
+  tags: ["career"]
   description: "No-fluff guide to starting a quant trading career"
   type: "external"
 
 - title: "Mental Math for Traders"
   url: "https://openquant.co/blog/math-for-traders"
   category: "getting-started"
-  tags: ["interview", "math"]
+  tags: ["interview"]
   description: "Mental math techniques for trading interviews"
   type: "external"
 
 - title: "Quant Game Room"
   url: "https://openquant.co/math-game"
   category: "getting-started"
-  tags: ["practice", "interview"]
+  tags: ["interview"]
   description: "Practice mental math for quant interviews"
   type: "external"
 
 - title: "TraderIQ"
   url: "https://www.traderiq.org/practice"
   category: "getting-started"
-  tags: ["practice", "interview"]
+  tags: ["interview"]
   description: "Trading interview practice platform"
   type: "external"
 
 - title: "80 in 8"
   url: "https://thequantprep.com/games/80-in-8"
   category: "getting-started"
-  tags: ["practice", "math"]
+  tags: ["interview"]
   description: "Speed math practice for quant interviews"
   type: "external"
 
 - title: "Kaggle Tricks from Grandmaster"
   url: "https://okhlopkov.com/kaggle-tricks-from-grandmaster-hft-quant/"
   category: "getting-started"
-  tags: ["competition", "tips"]
+  tags: ["competition"]
   description: "Competition strategies from a Kaggle Grandmaster"
   type: "external"
 
 - title: "How to Win Kaggle"
   url: "https://github.com/SJD1882/MOOC-Coursera-Advanced-Machine-Learning/blob/master/2%20-%20How%20to%20Win%20a%20Data%20Science%20Competition/Final%20Project/slides/1%20-%20Practical%20guide%20for%20Kaggle%20competitions.pdf"
   category: "getting-started"
-  tags: ["competition", "kaggle"]
+  tags: ["competition"]
   description: "Practical guide for winning data science competitions"
   type: "external"
 
 - title: "Quant Research Repo"
   url: "https://github.com/adamd1985/quant_research/tree/main"
   category: "getting-started"
-  tags: ["research", "examples"]
+  tags: ["research"]
   description: "Open-source quantitative research examples"
   type: "external"
 
@@ -109,212 +109,210 @@
 - title: "Options 101"
   url: "https://akunacapital.teachable.com/p/options101"
   category: "courses"
-  tags: ["options", "trading"]
+  tags: ["finance"]
   description: "Free options trading course by Akuna Capital"
   type: "external"
 
 - title: "CS231n: Deep Learning"
   url: "https://cs231n.github.io/"
   category: "courses"
-  tags: ["ML", "vision"]
+  tags: ["ML"]
   description: "Stanford's deep learning for computer vision course"
   type: "external"
 
 - title: "CS229: Machine Learning"
   url: "https://see.stanford.edu/course/cs229"
   category: "courses"
-  tags: ["ML", "theory"]
+  tags: ["ML"]
   description: "Stanford's foundational machine learning course"
   type: "external"
 
 - title: "BLIND-75 Solutions"
   url: "https://www.youtube.com/playlist?list=PLot-Xpze53ldVwtstag2TL4HQhAnC8ATf"
   category: "courses"
-  tags: ["coding", "interview"]
+  tags: ["interview"]
   description: "Video solutions to the 75 essential LeetCode problems"
   type: "external"
 
-# Books
-- title: "All of Statistics"
-  category: "books"
-  tags: ["statistics", "theory"]
-  description: "Larry Wasserman - Comprehensive statistics reference (ISBN: 978-0387402727)"
-  type: "book"
-
-- title: "Python for Finance"
-  category: "books"
-  tags: ["python", "finance"]
-  description: "Yves Hilpisch - Mastering data-driven finance (ISBN: 978-1492024330)"
-  type: "book"
-
-- title: "Hands-On Machine Learning"
-  category: "books"
-  tags: ["ML", "practical"]
-  description: "Aurelien Geron - Sklearn, Keras, TensorFlow (ISBN: 978-1098125974)"
-  type: "book"
-
-- title: "Advances in Financial Machine Learning"
-  category: "books"
-  tags: ["ML", "finance"]
-  description: "Marcos Lopez de Prado - Advanced quant ML techniques (ISBN: 978-1119482086)"
-  type: "book"
-
-- title: "A Practical Guide To Quantitative Finance Interviews"
-  category: "books"
-  tags: ["interview", "quant"]
-  description: "Xinfeng Zhou - The 'Green Book' for quant interviews (ISBN: 978-1438236667)"
-  type: "book"
-
-- title: "Heard on the Street"
-  category: "books"
-  tags: ["interview", "finance"]
-  description: "Timothy Falcon Crack - Wall Street interview questions (ISBN: 978-0994138699)"
-  type: "book"
-
-- title: "Short-Cut Math"
-  category: "books"
-  tags: ["math", "interview"]
-  description: "Gerard W. Kelly - Mental math shortcuts (ISBN: 978-0486246116)"
-  type: "book"
-
-- title: "Essential Poker Math"
-  category: "books"
-  tags: ["poker", "probability"]
-  description: "Alton Hardin - Probability and expected value (ISBN: 978-1530927081)"
-  type: "book"
-
-- title: "MIT Poker Theory Course"
-  url: "https://ocw.mit.edu/courses/15-s50-poker-theory-and-analytics-january-iap-2015/download/"
-  category: "books"
-  tags: ["poker", "strategy"]
-  description: "MIT's poker theory and analytics course materials"
-  type: "external"
-
-# Tools
-- title: "Vast.ai"
-  url: "https://vast.ai/"
-  category: "tools"
-  tags: ["GPU", "cloud"]
-  description: "Affordable GPU server rental for ML training"
-  type: "external"
-
-- title: "CCXT"
-  url: "https://github.com/ccxt/ccxt"
-  category: "tools"
-  tags: ["crypto", "data"]
-  description: "Unified API for 100+ cryptocurrency exchanges"
-  type: "external"
-
-- title: "Yahoo Finance"
-  url: "https://finance.yahoo.com/"
-  category: "tools"
-  tags: ["equities", "data"]
-  description: "Free delayed equity market data"
-  type: "external"
-
-- title: "Alpha Vantage"
-  url: "https://www.alphavantage.co/"
-  category: "tools"
-  tags: ["API", "data"]
-  description: "Multi-asset market data with free tier"
-  type: "external"
-
-- title: "Polygon.io"
-  url: "https://polygon.io/"
-  category: "tools"
-  tags: ["API", "data"]
-  description: "High-quality multi-asset market data (paid)"
-  type: "external"
-
-- title: "pytest"
-  url: "https://pytest.org/"
-  category: "tools"
-  tags: ["testing", "python"]
-  description: "Python testing framework"
-  type: "external"
-
-- title: "mypy"
-  url: "https://mypy.readthedocs.io/"
-  category: "tools"
-  tags: ["typing", "python"]
-  description: "Static type checker for Python"
-  type: "external"
-
-# Technical Resources
 - title: "Two Sigma: ML Regime Modeling"
   url: "https://www.twosigma.com/articles/a-machine-learning-approach-to-regime-modeling/"
   category: "courses"
-  tags: ["ML", "regimes"]
+  tags: ["ML"]
   description: "Machine learning methods for identifying market regimes"
   type: "external"
 
 - title: "Permutation Testing (Video)"
   url: "https://www.youtube.com/watch?v=NLBXgSmRBgU&t=808s"
   category: "courses"
-  tags: ["statistics", "testing"]
+  tags: ["statistics"]
   description: "Video explanation of permutation-based significance testing"
   type: "external"
 
 - title: "QuantStart"
   url: "https://www.quantstart.com/"
   category: "courses"
-  tags: ["beginner", "tutorials"]
+  tags: ["finance"]
   description: "Beginner-friendly quant finance tutorials and articles"
   type: "external"
 
 - title: "Quantopian Lectures"
   url: "https://gist.github.com/ih2502mk/50d8f7feb614c8676383431b056f4291"
   category: "courses"
-  tags: ["notebooks", "quant"]
+  tags: ["finance"]
   description: "Archived lecture notebooks on quantitative topics"
   type: "external"
 
 - title: "QuantEcon"
   url: "https://quantecon.org/"
   category: "courses"
-  tags: ["economics", "python"]
+  tags: ["python"]
   description: "Open-source economics and finance lectures"
   type: "external"
 
-# Books - Additional
+# Books
+- title: "All of Statistics"
+  category: "books"
+  tags: ["statistics"]
+  description: "Larry Wasserman - Comprehensive statistics reference (ISBN: 978-0387402727)"
+  type: "book"
+
+- title: "Python for Finance"
+  category: "books"
+  tags: ["python"]
+  description: "Yves Hilpisch - Mastering data-driven finance (ISBN: 978-1492024330)"
+  type: "book"
+
+- title: "Hands-On Machine Learning"
+  category: "books"
+  tags: ["ML"]
+  description: "Aurelien Geron - Sklearn, Keras, TensorFlow (ISBN: 978-1098125974)"
+  type: "book"
+
+- title: "Advances in Financial Machine Learning"
+  category: "books"
+  tags: ["ML"]
+  description: "Marcos Lopez de Prado - Advanced quant ML techniques (ISBN: 978-1119482086)"
+  type: "book"
+
+- title: "A Practical Guide To Quantitative Finance Interviews"
+  category: "books"
+  tags: ["interview"]
+  description: "Xinfeng Zhou - The 'Green Book' for quant interviews (ISBN: 978-1438236667)"
+  type: "book"
+
+- title: "Heard on the Street"
+  category: "books"
+  tags: ["interview"]
+  description: "Timothy Falcon Crack - Wall Street interview questions (ISBN: 978-0994138699)"
+  type: "book"
+
+- title: "Short-Cut Math"
+  category: "books"
+  tags: ["interview"]
+  description: "Gerard W. Kelly - Mental math shortcuts (ISBN: 978-0486246116)"
+  type: "book"
+
+- title: "Essential Poker Math"
+  category: "books"
+  tags: ["poker"]
+  description: "Alton Hardin - Probability and expected value (ISBN: 978-1530927081)"
+  type: "book"
+
+- title: "MIT Poker Theory Course"
+  url: "https://ocw.mit.edu/courses/15-s50-poker-theory-and-analytics-january-iap-2015/download/"
+  category: "books"
+  tags: ["poker"]
+  description: "MIT's poker theory and analytics course materials"
+  type: "external"
+
 - title: "Advances in Financial ML (Wiley)"
   url: "https://www.wiley.com/en-us/Advances+in+Financial+Machine+Learning-p-9781119482086"
   category: "books"
-  tags: ["ML", "finance"]
+  tags: ["ML"]
   description: "Marcos Lopez de Prado's seminal work (official link)"
   type: "external"
 
 - title: "Python for Finance (O'Reilly)"
   url: "https://www.oreilly.com/library/view/python-for-finance/9781492024323/"
   category: "books"
-  tags: ["python", "finance"]
+  tags: ["python"]
   description: "Yves Hilpisch's comprehensive Python finance guide"
   type: "external"
 
 - title: "White Reality Check (2000)"
   url: "https://www.jstor.org/stable/2999445"
   category: "books"
-  tags: ["paper", "statistics"]
+  tags: ["research"]
   description: "Foundation for permutation testing in finance - Econometrica"
   type: "external"
 
 - title: "Romano & Wolf Step-Down (2005)"
   url: "https://www.jstor.org/stable/3598676"
   category: "books"
-  tags: ["paper", "statistics"]
+  tags: ["research"]
   description: "Stepwise multiple testing as formalized data snooping"
   type: "external"
 
 - title: "Harvey et al. Cross-Section (2016)"
   url: "https://academic.oup.com/rfs/article/29/1/5/1843824"
   category: "books"
-  tags: ["paper", "finance"]
+  tags: ["research"]
   description: "...and the Cross-Section of Expected Returns"
   type: "external"
 
 - title: "Pseudo-Mathematics (2014)"
   url: "https://www.ams.org/notices/201405/rnoti-p458.pdf"
   category: "books"
-  tags: ["paper", "critique"]
+  tags: ["research"]
   description: "Bailey et al. on financial charlatanism - AMS Notices"
+  type: "external"
+
+# Tools
+- title: "Vast.ai"
+  url: "https://vast.ai/"
+  category: "tools"
+  tags: ["data"]
+  description: "Affordable GPU server rental for ML training"
+  type: "external"
+
+- title: "CCXT"
+  url: "https://github.com/ccxt/ccxt"
+  category: "tools"
+  tags: ["data"]
+  description: "Unified API for 100+ cryptocurrency exchanges"
+  type: "external"
+
+- title: "Yahoo Finance"
+  url: "https://finance.yahoo.com/"
+  category: "tools"
+  tags: ["data"]
+  description: "Free delayed equity market data"
+  type: "external"
+
+- title: "Alpha Vantage"
+  url: "https://www.alphavantage.co/"
+  category: "tools"
+  tags: ["data"]
+  description: "Multi-asset market data with free tier"
+  type: "external"
+
+- title: "Polygon.io"
+  url: "https://polygon.io/"
+  category: "tools"
+  tags: ["data"]
+  description: "High-quality multi-asset market data (paid)"
+  type: "external"
+
+- title: "pytest"
+  url: "https://pytest.org/"
+  category: "tools"
+  tags: ["python"]
+  description: "Python testing framework"
+  type: "external"
+
+- title: "mypy"
+  url: "https://mypy.readthedocs.io/"
+  category: "tools"
+  tags: ["python"]
+  description: "Static type checker for Python"
   type: "external"

@@ -68,6 +68,32 @@ document.addEventListener('DOMContentLoaded', function() {
   let activeCategory = 'all';
   let activeTags = new Set();
 
+  function getTagsForCategory(category) {
+    const tags = new Set();
+    cards.forEach(card => {
+      if (category === 'all' || card.dataset.category === category) {
+        card.dataset.tags.split(',').forEach(tag => tags.add(tag));
+      }
+    });
+    return tags;
+  }
+
+  function updateTagVisibility() {
+    const availableTags = getTagsForCategory(activeCategory);
+    tagFilters.forEach(chip => {
+      const tag = chip.dataset.tag;
+      if (availableTags.has(tag)) {
+        chip.style.display = '';
+      } else {
+        chip.style.display = 'none';
+        if (activeTags.has(tag)) {
+          activeTags.delete(tag);
+          chip.classList.remove('active');
+        }
+      }
+    });
+  }
+
   function updateResults() {
     let visible = 0;
     cards.forEach(card => {
@@ -92,6 +118,7 @@ document.addEventListener('DOMContentLoaded', function() {
       categoryFilters.forEach(f => f.classList.remove('active'));
       this.classList.add('active');
       activeCategory = this.dataset.filter;
+      updateTagVisibility();
       updateResults();
     });
   });
@@ -116,6 +143,7 @@ document.addEventListener('DOMContentLoaded', function() {
     updateResults();
   });
 
+  updateTagVisibility();
   updateResults();
 });
 </script>
