@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Data Processing Hypothesis v0.1.0
+permalink: /competitions/write-ups/hku/hku-ex-1/1st-round/dataprocessinghypothesis0-1-0/
 ---
 
 

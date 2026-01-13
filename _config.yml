@@ -74,6 +74,13 @@ defaults:
     values:
       layout: "page"
 
+# Sass settings
+sass:
+  quiet_deps: true
+  silence_deprecations:
+    - color-functions
+    - import
+
 # Markdown settings
 kramdown:
   input: GFM

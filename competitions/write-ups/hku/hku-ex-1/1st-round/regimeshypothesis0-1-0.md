@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Regimes Hypothesis v0.1.0
+permalink: /competitions/write-ups/hku/hku-ex-1/1st-round/regimeshypothesis0-1-0/
 ---
 
 

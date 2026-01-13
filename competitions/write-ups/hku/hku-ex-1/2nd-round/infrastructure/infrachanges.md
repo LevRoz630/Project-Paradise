@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Infrastructure Changes
+permalink: /competitions/write-ups/hku/hku-ex-1/2nd-round/infrastructure/infrachanges/
 ---
 
 

@@ -1,6 +1,7 @@
 ---
 layout: page
 title: 2nd Round Ideas
+permalink: /competitions/write-ups/hku/hku-ex-1/2nd-round/ideas/
 ---
 
 

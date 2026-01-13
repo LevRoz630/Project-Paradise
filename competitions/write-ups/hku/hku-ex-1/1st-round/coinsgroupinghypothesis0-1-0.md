@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Coins Grouping Hypothesis v0.1.0
+permalink: /competitions/write-ups/hku/hku-ex-1/1st-round/coinsgroupinghypothesis0-1-0/
 ---
 
 

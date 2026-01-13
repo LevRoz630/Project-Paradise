@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Exogenous Variables
+permalink: /competitions/write-ups/hku/hku-ex-1/1st-round/exogenousvariables0-1-0/
 ---
 
 

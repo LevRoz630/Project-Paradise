@@ -1,6 +1,7 @@
 ---
 layout: page
 title: HKU Team 1 - Execution
+permalink: /competitions/write-ups/hku/hku-ex-1/
 ---
 
 

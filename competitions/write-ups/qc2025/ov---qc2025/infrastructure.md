@@ -1,6 +1,7 @@
 ---
 layout: page
 title: QC2025 Part 1 Infrastructure
+permalink: /competitions/write-ups/qc2025/ov---qc2025/infrastructure/
 ---
 
 

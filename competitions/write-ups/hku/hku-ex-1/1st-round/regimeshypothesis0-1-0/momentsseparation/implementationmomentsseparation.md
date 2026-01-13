@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Moments Separation Implementation
+permalink: /competitions/write-ups/hku/hku-ex-1/1st-round/regimeshypothesis0-1-0/momentsseparation/implementationmomentsseparation/
 ---
 
 

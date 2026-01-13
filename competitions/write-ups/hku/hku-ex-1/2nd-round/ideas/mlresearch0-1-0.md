@@ -1,6 +1,7 @@
 ---
 layout: page
 title: ML Research
+permalink: /competitions/write-ups/hku/hku-ex-1/2nd-round/ideas/mlresearch0-1-0/
 ---
 
 

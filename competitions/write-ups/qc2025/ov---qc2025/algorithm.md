@@ -1,6 +1,7 @@
 ---
 layout: page
 title: QC2025 Basketball Algorithm
+permalink: /competitions/write-ups/qc2025/ov---qc2025/algorithm/
 ---
 
 

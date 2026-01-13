@@ -1,6 +1,7 @@
 ---
 layout: page
 title: NA / Missing Data
+permalink: /competitions/write-ups/hku/hku-ex-1/1st-round/dataprocessinghypothesis0-1-0/na-missing/
 ---
 
 

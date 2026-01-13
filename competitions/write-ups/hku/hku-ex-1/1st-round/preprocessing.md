@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Preprocessing
+permalink: /competitions/write-ups/hku/hku-ex-1/1st-round/preprocessing/
 ---
 
 

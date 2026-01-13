@@ -1,6 +1,7 @@
 ---
 layout: page
 title: HKU x Avenir - Overview
+permalink: /competitions/write-ups/hku/hku-ov/
 ---
 
 
