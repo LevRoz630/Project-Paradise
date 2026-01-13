@@ -46,7 +46,7 @@ We're also looking for experienced professionals to mentor students. If you have
 
 <div class="join-form-container">
 
-<form action="https://formspree.io/f/mykkgrjy" method="POST" enctype="multipart/form-data" class="join-form">
+<form action="https://formspree.io/f/mykkgrjy" method="POST" class="join-form">
 
   <div class="form-group">
     <label for="role">Applying as *</label>
@@ -83,9 +83,9 @@ We're also looking for experienced professionals to mentor students. If you have
   </div>
 
   <div class="form-group">
-    <label for="cv">CV/Resume</label>
-    <input type="file" id="cv" name="cv" accept=".pdf,.doc,.docx">
-    <small>PDF, DOC, or DOCX (optional but recommended)</small>
+    <label for="cv">CV/Resume Link</label>
+    <input type="url" id="cv" name="cv" placeholder="https://drive.google.com/... or LinkedIn URL">
+    <small>Google Drive, Dropbox, or LinkedIn (optional but recommended)</small>
   </div>
 
   <div class="form-group">
