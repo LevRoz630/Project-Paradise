@@ -40,6 +40,16 @@ permalink: /team/
       <a href="{{ '/team/supervisors/dmitry-zotikov/' | relative_url }}">View Profile</a>
     </div>
   </div>
+
+  <div class="card">
+    <img src="{{ '/assets/images/sergey-frolov.jpg' | relative_url }}" alt="Sergey Frolov" class="person-photo" />
+    <h3>Sergey Frolov</h3>
+    <p><strong>Position:</strong> Quant Researcher @ QuantGem</p>
+    <p>ML-driven algorithmic trading</p>
+    <div class="person-links">
+      <a href="{{ '/team/supervisors/sergey-frolov/' | relative_url }}">View Profile</a>
+    </div>
+  </div>
 </div>
 
 [View All Supervisors]({{ '/team/supervisors/' | relative_url }})
@@ -66,6 +76,26 @@ permalink: /team/
     <p><strong>Interests:</strong> Sports, Software Engineering, Trading</p>
     <div class="person-links">
       <a href="{{ '/team/members/denys-sta/' | relative_url }}">View Profile</a>
+    </div>
+  </div>
+
+  <div class="card">
+    <img src="{{ '/assets/images/anthony-grishin.jpg' | relative_url }}" alt="Anthony Grishin" class="person-photo" />
+    <h3>Anthony</h3>
+    <p><strong>University:</strong> Imperial College London</p>
+    <p><strong>Interests:</strong> Global Markets, ML, Fluid Dynamics</p>
+    <div class="person-links">
+      <a href="{{ '/team/members/anthony-grishin/' | relative_url }}">View Profile</a>
+    </div>
+  </div>
+
+  <div class="card">
+    <img src="{{ '/assets/images/lev-rozanov.jpg' | relative_url }}" alt="Lev Rozanov" class="person-photo" />
+    <h3>Lev</h3>
+    <p><strong>University:</strong> University of St Andrews</p>
+    <p><strong>Interests:</strong> Quant Competitions, RL, AI Safety</p>
+    <div class="person-links">
+      <a href="{{ '/team/members/lev-rozanov/' | relative_url }}">View Profile</a>
     </div>
   </div>
 </div>

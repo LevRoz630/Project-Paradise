@@ -41,6 +41,16 @@ Our supervisors are experienced professionals in quantitative finance, trading, 
       <a href="{{ '/team/supervisors/dmitry-zotikov/' | relative_url }}">View Profile</a>
     </div>
   </div>
+
+  <div class="card">
+    <img src="{{ '/assets/images/sergey-frolov.jpg' | relative_url }}" alt="Sergey Frolov" class="person-photo" />
+    <h3>Sergey Frolov</h3>
+    <p><strong>Position:</strong> Quant Researcher @ QuantGem Mathematics</p>
+    <p>ML-driven algorithmic trading in Crypto and TradFi</p>
+    <div class="person-links">
+      <a href="{{ '/team/supervisors/sergey-frolov/' | relative_url }}">View Profile</a>
+    </div>
+  </div>
 </div>
 
 ---
