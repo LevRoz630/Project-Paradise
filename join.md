@@ -85,7 +85,7 @@ We're also looking for experienced professionals to mentor students. If you have
   <div class="form-group">
     <label for="cv">CV/Resume Link</label>
     <input type="url" id="cv" name="cv" placeholder="https://drive.google.com/... or LinkedIn URL">
-    <small>Google Drive, Dropbox, or LinkedIn (optional but recommended)</small>
+    <small>Google Drive, Dropbox, or LinkedIn (optional but recommended). Make sure it's set to public!</small>
   </div>
 
   <div class="form-group">
