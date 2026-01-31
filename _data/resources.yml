@@ -206,6 +206,12 @@
   description: "Timothy Falcon Crack - Wall Street interview questions (ISBN: 978-0994138699)"
   type: "book"
 
+- title: "High-Frequency Trading"
+  category: "books"
+  tags: ["HFT", "advanced"]
+  description: "Irene Aldridge - Algorithmic strategies and trading systems, Wiley Trading (ISBN: 978-1118343500)"
+  type: "book"
+
 - title: "Short-Cut Math"
   category: "books"
   tags: ["interview"]
