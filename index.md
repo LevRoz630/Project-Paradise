@@ -10,7 +10,7 @@ permalink: /
     Part of <a href="https://www.elphinstoneresearchgroup.com/" target="_blank">Elphinstone Research Group</a>
   </p>
   <p>
-    Student-led quantitative research and trading competition project
+    Student-led quantitative research and trading community
   </p>
 </div>
 

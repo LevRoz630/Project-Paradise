@@ -1,6 +1,6 @@
 # Project Paradise
 
-Jekyll-based website for Project Paradise, a student quantitative research and trading competition project.
+Jekyll-based website for Project Paradise, a student quantitative research and trading community.
 
 ## Structure
 

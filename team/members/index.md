@@ -52,5 +52,5 @@ Our team members are students from various universities who share a passion for 
 ---
 
 <div class="note">
-<strong>Note:</strong> This page is continuously updated as new members join the project. If you're interested in joining, check out our <a href="{{ '/join/' | relative_url }}">Join page</a> for more information.
+<strong>Note:</strong> This page is continuously updated as new members join the community. If you're interested in joining, check out our <a href="{{ '/join/' | relative_url }}">Join page</a> for more information.
 </div>

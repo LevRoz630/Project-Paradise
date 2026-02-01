@@ -14,6 +14,10 @@ Taking stochastic models from beautiful math to brutal markets.
 
 7+ years in quant research at dxFeed - building neural networks for LOB prediction, index families (Crypto/FX), and statistical arbitrage strategies.
 
+## Interests
+
+Stochastic modeling: statistical inference, statistical learning & time series analysis
+
 ## Background
 
 - CQF (Quantitative Finance)
