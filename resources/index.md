@@ -6,7 +6,7 @@ permalink: /resources/
 
 <div class="note">
 <p><strong>This is a shared bookshelf.</strong> Books, blog posts, YouTube videos, tools, competition write-ups — if it helped you learn, it belongs here.</p>
-<p style="margin-bottom: 0;">Want to add something? Drop it in our <a href="https://github.com/LevRoz630/Project-Paradise/discussions" target="_blank">GitHub Discussions ↗</a> with a line about why it was useful, and we'll add it with your name.</p>
+<p style="margin-bottom: 0;">Want to add something? Drop it in our <a href="https://github.com/LevRoz630/Project-Paradise/discussions/categories/resources-suggestions" target="_blank">GitHub Discussions ↗</a> with a line about why it was useful, and we'll add it with your name.</p>
 </div>
 
 ---
