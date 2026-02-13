@@ -4,66 +4,60 @@ title: Join Us
 permalink: /join/
 ---
 
-## Students
+## Everyone Starts Somewhere
 
-We welcome students interested in quantitative finance, regardless of experience level. You'll work on real projects, participate in trading competitions, and learn from experienced mentors.
+If you're curious and want to learn by building things with other students, come join.
 
-**What you'll gain:**
+**What it's like:**
 
-| Benefit | Description |
-|---------|-------------|
-| Hands-on Experience | Work on backtesting platforms, ML models, and trading systems |
-| Competition Experience | Participate in challenges from Citadel, Jane Street, IMC and more |
-| Industry Skills | Learn Python, Docker, Git, and production-grade development |
-| Mentorship | Guidance from supervisors with industry experience |
+- You pick what you work on (or start something new)
+- You learn by doing, with help from mentors and other members
+- No pressure to perform. We're all learning.
+- You own your work
 
-**Skills we're looking for:**
+**Python is highly recommended.** Most of our projects and competitions use it, so some familiarity will help you get started faster. Beyond that, some basics in statistics and maths go a long way.
 
-<span class="badge">Python</span> <span class="badge">C++</span> <span class="badge">Finance</span> <span class="badge">Mathematics</span> <span class="badge">Statistics</span> <span class="badge">Machine Learning</span>
+<span class="badge">Python</span> <span class="badge">Statistics</span> <span class="badge">Mathematics</span>
 
-No need to have all of these - willingness to learn is what matters most.
+Everything else you can pick up as you go: <span class="badge">C++</span> <span class="badge">Finance</span> <span class="badge">Machine Learning</span>
 
 ---
 
-## Supervisors
+## Mentors
 
-We're also looking for experienced professionals to mentor students. If you have industry experience in quantitative finance, trading, or software engineering, consider joining as a supervisor.
+If you're a professional in quantitative finance, trading, or software engineering, we'd appreciate your help. The commitment is flexible.
 
-**What supervisors do:**
+**What mentors do:**
 
-| Role | Description |
-|------|-------------|
-| Mentorship | Guide students through projects and competitions |
-| Code Review | Help maintain code quality and best practices |
-| Industry Insight | Share real-world experience and career advice |
-| Research Direction | Help shape research topics and approaches |
-
-**Time commitment:** Flexible, typically a few hours per week for code reviews and guidance.
+- Help students think through problems
+- Review code and research when asked
+- Share what the industry is like
+- Be around when someone gets stuck
 
 ---
 
-## Apply
+## Introduce Yourself
 
 <div class="join-form-container">
 
 <form action="https://formspree.io/f/mykkgrjy" method="POST" class="join-form">
 
   <div class="form-group">
-    <label for="role">Applying as *</label>
+    <label for="role">I'm interested as *</label>
     <select id="role" name="role" required style="width: 100%; padding: 0.625rem; border: 1px solid var(--border); border-radius: 4px; font-size: 1rem;">
       <option value="">Select one...</option>
       <option value="Student">Student</option>
-      <option value="Supervisor">Supervisor / Mentor</option>
+      <option value="Supervisor">Mentor</option>
     </select>
   </div>
 
   <div class="form-group">
-    <label for="name">Full Name *</label>
+    <label for="name">Name *</label>
     <input type="text" id="name" name="name" required>
   </div>
 
   <div class="form-group">
-    <label for="email">Email Address *</label>
+    <label for="email">Email *</label>
     <input type="email" id="email" name="email" required>
   </div>
 
@@ -78,24 +72,29 @@ We're also looking for experienced professionals to mentor students. If you have
   </div>
 
   <div class="form-group">
-    <label for="interests">Areas of Interest</label>
-    <textarea id="interests" name="interests" rows="3" placeholder="Research, Trading, Software Engineering, Machine Learning..."></textarea>
+    <label for="interests">What are you curious about?</label>
+    <textarea id="interests" name="interests" rows="3" placeholder="Trading, ML, research, building tools, competitions..."></textarea>
   </div>
 
   <div class="form-group">
-    <label for="cv">CV/Resume Link</label>
-    <input type="url" id="cv" name="cv" placeholder="https://drive.google.com/... or LinkedIn URL">
-    <small>Google Drive, Dropbox, or LinkedIn (optional but recommended). Make sure it's set to public!</small>
+    <label for="ideas">Is there anything you'd want to build or explore with the group?</label>
+    <textarea id="ideas" name="ideas" rows="3" placeholder="Even half-formed ideas are fine. We keep a list of things people are curious about."></textarea>
   </div>
 
   <div class="form-group">
-    <label for="message">Tell us about yourself</label>
-    <textarea id="message" name="message" rows="4" placeholder="Your background, experience, and why you want to join..."></textarea>
+    <label for="cv">LinkedIn or Portfolio (optional)</label>
+    <input type="url" id="cv" name="cv" placeholder="https://linkedin.com/in/... or any link">
+    <small>Totally optional. Just helps us get to know you.</small>
   </div>
 
-  <input type="hidden" name="_subject" value="New Project Paradise Application">
+  <div class="form-group">
+    <label for="message">Anything else you'd like to share?</label>
+    <textarea id="message" name="message" rows="4" placeholder="Tell us a bit about yourself."></textarea>
+  </div>
 
-  <button type="submit" class="btn">Submit Application</button>
+  <input type="hidden" name="_subject" value="New Project Paradise Introduction">
+
+  <button type="submit" class="btn">Send</button>
 </form>
 
 </div>
@@ -104,6 +103,6 @@ We're also looking for experienced professionals to mentor students. If you have
 
 ## What Happens Next
 
-We review applications within 5-7 business days. If there's a good fit, we'll reach out to schedule a chat.
+We'll get back to you within a few days. Usually it's just a quick chat to say hi, hear what you're interested in, and point you toward things you might enjoy working on.
 
 Questions? Reach out on [LinkedIn ↗](https://www.linkedin.com/in/lev-rozanov/){:target="_blank"}

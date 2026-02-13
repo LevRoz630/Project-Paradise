@@ -2,8 +2,8 @@
 title: Project Paradise
 email: ""
 description: >-
-  Student-led quantitative research and trading community.
-  Building practical skills in algorithmic trading, machine learning, and financial engineering.
+  A community of students exploring quantitative finance together.
+  We learn by building things: projects, competitions, and research, all driven by members.
 
 baseurl: "/Project-Paradise" # repository name
 url: "https://levroz630.github.io" # your GitHub Pages URL
@@ -20,6 +20,7 @@ plugins:
 # Navigation pages (in order)
 header_pages:
   - projects/index.md
+  - ideas.md
   - competitions/index.md
   - team/index.md
   - resources/index.md

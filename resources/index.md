@@ -4,6 +4,13 @@ title: Resources
 permalink: /resources/
 ---
 
+<div class="note">
+<p><strong>This is a shared bookshelf.</strong> Books, blog posts, YouTube videos, tools, competition write-ups — if it helped you learn, it belongs here.</p>
+<p style="margin-bottom: 0;">Want to add something? Drop it in our <a href="https://github.com/LevRoz630/Project-Paradise/discussions" target="_blank">GitHub Discussions ↗</a> with a line about why it was useful, and we'll add it with your name.</p>
+</div>
+
+---
+
 <div class="resource-filters">
   <div class="filter-row">
     <span class="filter-label">Category:</span>
@@ -153,3 +160,4 @@ document.addEventListener('DOMContentLoaded', function() {
 <div class="note" style="background: var(--bg-gray); border-left-color: var(--text-light);">
 <p style="margin-bottom: 0;"><strong style="color: var(--text);">Books:</strong> ISBNs are provided for purchasing or library access. For academic/personal use, books may also be available on <a href="https://annas-archive.li/" target="_blank">Anna's Archive ↗</a>. Please respect copyright laws in your jurisdiction.</p>
 </div>
+

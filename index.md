@@ -10,7 +10,7 @@ permalink: /
     Part of <a href="https://www.elphinstoneresearchgroup.com/" target="_blank">Elphinstone Research Group</a>
   </p>
   <p>
-    Student-led quantitative research and trading community
+    A community of students exploring quantitative finance together. Come learn with us.
   </p>
 </div>
 
@@ -18,30 +18,30 @@ permalink: /
 
 <div class="section-header">
   <h2>What We Do</h2>
-  <p>Hands-on experience in quantitative finance through projects, competitions, and research</p>
+  <p>We learn by building things. Members propose ideas, form teams, and work on them together. Mentors from industry help when we get stuck.</p>
 </div>
 
 <div class="cards-grid">
   <div class="card">
     <h3>Projects</h3>
-    <p>Build backtesting platforms, ML models, and trading systems. Learn Python, Docker, and related technologies.</p>
-    <a href="{{ '/projects/' | relative_url }}">Explore Projects</a>
+    <p>Members pitch ideas and build them: backtesting tools, ML models, trading systems, research papers. You choose what interests you.</p>
+    <a href="{{ '/projects/' | relative_url }}">See What's Happening</a>
   </div>
 
   <div class="card">
     <h3>Competitions</h3>
-    <p>Participate in trading competitions from firms like Citadel, Jane Street, and IMC.</p>
+    <p>We enter trading competitions from firms like Citadel, Jane Street, and IMC. Teams form around each one and it's a great way to learn fast.</p>
     <a href="{{ '/competitions/' | relative_url }}">View Competitions</a>
   </div>
 
   <div class="card">
     <h3>Community</h3>
-    <p>Team of students and experienced mentors working on quantitative finance projects.</p>
-    <a href="{{ '/team/' | relative_url }}">Meet the Team</a>
+    <p>Students from different universities, working on what they're curious about. Mentors from industry who help when you get stuck.</p>
+    <a href="{{ '/team/' | relative_url }}">Meet the People</a>
   </div>
 </div>
 
-## Current Projects
+## What People Are Working On
 
 <div class="cards-grid">
   <div class="card">
@@ -69,6 +69,11 @@ permalink: /
   </div>
 </div>
 
+<div style="text-align: center; margin: 1.5rem 0 2.5rem;">
+  <p style="color: var(--text-light);">These started because someone had an idea. Yours could be next.</p>
+  <a href="{{ '/ideas/' | relative_url }}" class="btn btn-secondary">Have an idea? Pitch it</a>
+</div>
+
 ## Current Competitions
 
 <div class="cards-grid">
@@ -91,7 +96,7 @@ permalink: /
 
 ## Competitions
 
-We participate in quantitative trading competitions and data science challenges from top firms. Check out our documented strategies and upcoming competitions.
+We enter quantitative trading competitions and data science challenges from top firms. Check out our documented strategies and upcoming competitions.
 
 <div style="text-align: center; margin: 2rem 0;">
   <a href="{{ '/competitions/' | relative_url }}" class="btn">Browse Competitions</a>
@@ -116,7 +121,7 @@ We participate in quantitative trading competitions and data science challenges 
   <div class="card">
     <h3>Competition Guides</h3>
     <p>Strategies and tips from experienced competitors for trading competitions.</p>
-    <a href="{{ '/resources/' | relative_url }}">Winning Strategies</a>
+    <a href="{{ '/resources/' | relative_url }}">Competition Tips</a>
   </div>
 </div>
 
@@ -124,19 +129,17 @@ We participate in quantitative trading competitions and data science challenges 
 
 <div class="get-started-box">
 
-<h3>Students</h3>
+<h3>Come build something</h3>
 
-<p>Work on real projects, participate in trading competitions, and learn from experienced mentors. We welcome students at all experience levels - willingness to learn is what matters most.</p>
+<p>You don't need a background in finance or years of coding experience. If you're curious about quantitative trading, ML, or just want to build things with other students, come join. You pick what you work on, or start something new.</p>
 
-<p><span class="badge">Python</span> <span class="badge">C++</span> <span class="badge">Finance</span> <span class="badge">Mathematics</span> <span class="badge">Machine Learning</span></p>
+<h3 style="margin-top: 1.5rem;">Mentors</h3>
 
-<h3 style="margin-top: 1.5rem;">Supervisors</h3>
-
-<p>Industry professionals can join as mentors to guide students through projects, review code, and share real-world experience. Flexible time commitment.</p>
+<p>We're lucky to have industry professionals who volunteer their time to help us. If you work in quant finance, trading, or software engineering and want to support students, get in touch.</p>
 
 <div style="text-align: center; margin-top: 1.5rem;">
-  <a href="{{ '/join/#apply' | relative_url }}" class="btn">Apply Now</a>
-  <a href="{{ '/team/' | relative_url }}" class="btn btn-secondary" style="margin-left: 1rem;">Meet the Team</a>
+  <a href="{{ '/join/' | relative_url }}" class="btn">Say Hello</a>
+  <a href="{{ '/team/' | relative_url }}" class="btn btn-secondary" style="margin-left: 1rem;">Meet the People</a>
 </div>
 
 </div>

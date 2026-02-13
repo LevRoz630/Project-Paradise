@@ -4,9 +4,13 @@ title: Projects
 permalink: /projects/
 ---
 
-<p class="page-intro">Financial engineering, machine learning, and software development.</p>
+<p class="page-intro">Projects start when someone has an idea and others are interested. You pitch it, people join, and you start building together.</p>
 
 ---
+
+## What People Are Building
+
+These are active projects that members are currently working on. Each one started as someone's idea.
 
 <div class="cards-grid">
   <div class="card">
@@ -56,6 +60,12 @@ permalink: /projects/
   </div>
 </div>
 
-## Get Involved
+## Start Something New
 
-Interested in contributing? Check our [Repo Conventions]({{ '/resources/repo-conventions/' | relative_url }}) and reach out to our [team]({{ '/team/' | relative_url }}).
+Have an idea for a project? Here's how it works:
+
+1. **Pitch it.** Share your idea with the community, even if it's rough.
+2. **Find people.** Others who are interested will join.
+3. **Start building.** Meet up, figure out the approach, and learn as you go.
+
+It doesn't need to be polished or original. If you're curious about something, chances are someone else is too. Reach out on the [Join page]({{ '/join/' | relative_url }}) or talk to any [community member]({{ '/team/' | relative_url }}).
