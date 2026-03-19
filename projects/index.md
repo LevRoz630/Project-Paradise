@@ -31,11 +31,11 @@ These are active projects that members are currently working on. Each one starte
   </div>
 
   <div class="card">
-    <h3>Internship Prep Platform (TBC)</h3>
-    <p><strong>Agent-forward interview prep</strong></p>
-    <p>LLM-powered platform that curates technical interview preparation from given resources.</p>
-    <p><span class="badge">TypeScript</span> <span class="badge">Python</span> <span class="badge">LLM</span></p>
-    <a href="{{ '/projects/internship-prep-platform/' | relative_url }}">View Project</a>
+    <h3>Durak Reinforcement Learning</h3>
+    <p><strong>RL agents for the card game Durak</strong></p>
+    <p>Training agents via self-play to master the imperfect-information card game Durak. C++ game engine with Python RL training.</p>
+    <p><span class="badge">C++</span> <span class="badge">Python</span> <span class="badge">Reinforcement Learning</span></p>
+    <a href="{{ '/projects/durak-rl/' | relative_url }}">View Project</a>
   </div>
 </div>
 
@@ -52,13 +52,6 @@ These are active projects that members are currently working on. Each one starte
     <a href="{{ '/projects/german-electricity/' | relative_url }}">View Project</a>
   </div>
 
-  <div class="card">
-    <h3>LOB Prediction</h3>
-    <p><strong>Limit Order Book modeling</strong></p>
-    <p>Modeling limit order book dynamics from given market data for the Predictorium competition.</p>
-    <p><span class="badge">Python</span> <span class="badge">Market Microstructure</span> <span class="badge">ML</span></p>
-    <a href="{{ '/projects/lob-simulation/' | relative_url }}">View Project</a>
-  </div>
 </div>
 
 ## Start Something New
