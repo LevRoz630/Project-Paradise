@@ -7,8 +7,6 @@ description: "Forecasting German electricity prices for the Ensimag IF competiti
 
 [← Back to Projects]({{ '/projects/' | relative_url }})
 
-Forecasting German electricity prices and consumption patterns for the Ensimag IF competition.
-
 <span class="badge">Python</span> <span class="badge">Time Series</span> <span class="badge">ML</span>
 
 ---

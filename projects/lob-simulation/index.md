@@ -7,8 +7,6 @@ description: "Limit order book prediction for the Predictorium competition using
 
 [← Back to Projects]({{ '/projects/' | relative_url }})
 
-Modeling limit order book dynamics from given market data for the Predictorium competition.
-
 <span class="badge">Python</span> <span class="badge">Market Microstructure</span> <span class="badge">ML</span>
 
 ---

@@ -7,8 +7,6 @@ description: "Student-led research papers in quantitative finance and algorithmi
 
 [← Back to Projects]({{ '/projects/' | relative_url }})
 
-Student-led and industry reviewed publications in quantitative finance and algorithmic trading.
-
 <span class="badge">Python</span> <span class="badge">Research</span>
 
 ---

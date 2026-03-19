@@ -7,8 +7,6 @@ description: "Student-oriented backtesting platform for strategy hypothesis test
 
 [← Back to Projects]({{ '/projects/' | relative_url }})
 
-Student-oriented backtesting and strategy hypothesis testing tool. Easy-to-learn with friction-less data loading and publish-ready report generation.
-
 <span class="badge">Python</span> <span class="badge">Docker</span> <span class="badge">vectorbt</span> <span class="badge">CCXT</span>
 
 ---
