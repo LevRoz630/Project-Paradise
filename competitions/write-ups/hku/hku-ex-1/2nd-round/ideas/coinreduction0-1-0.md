@@ -2,6 +2,7 @@
 layout: page
 title: Coin Reduction
 permalink: /competitions/write-ups/hku/hku-ex-1/2nd-round/ideas/coinreduction0-1-0/
+description: "Volume-based filtering to reduce the crypto trading universe for improved strategy performance."
 ---
 
 

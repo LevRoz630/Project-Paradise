@@ -2,6 +2,7 @@
 layout: page
 title: Infrastructure
 permalink: /competitions/write-ups/hku/hku-ex-1/1st-round/infrastructure/
+description: "HKU Round 1 infrastructure: feature selection, model comparison scripts, and cross-validation setup."
 ---
 
 

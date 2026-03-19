@@ -2,6 +2,7 @@
 layout: page
 title: Data Processing Hypothesis v0.1.0
 permalink: /competitions/write-ups/hku/hku-ex-1/1st-round/dataprocessinghypothesis0-1-0/
+description: "Hypothesis for data processing approaches in crypto return prediction including missing data handling."
 ---
 
 

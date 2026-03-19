@@ -2,6 +2,7 @@
 layout: page
 title: 2nd Round Ideas
 permalink: /competitions/write-ups/hku/hku-ex-1/2nd-round/ideas/
+description: "Strategy ideas explored for HKU x Avenir Round 2 live trading: ML, coin reduction, and cointegration."
 ---
 
 

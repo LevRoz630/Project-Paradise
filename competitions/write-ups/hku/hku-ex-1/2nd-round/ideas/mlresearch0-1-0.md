@@ -2,6 +2,7 @@
 layout: page
 title: ML Research
 permalink: /competitions/write-ups/hku/hku-ex-1/2nd-round/ideas/mlresearch0-1-0/
+description: "ML model research for HKU x Avenir Round 2 live trading. Explored and abandoned due to poor results."
 ---
 
 

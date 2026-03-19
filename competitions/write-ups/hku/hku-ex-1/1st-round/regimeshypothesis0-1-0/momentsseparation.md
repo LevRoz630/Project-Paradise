@@ -2,6 +2,7 @@
 layout: page
 title: Moments Separation
 permalink: /competitions/write-ups/hku/hku-ex-1/1st-round/regimeshypothesis0-1-0/momentsseparation/
+description: "Separating market regimes by statistical moments for the HKU crypto trading challenge."
 ---
 
 

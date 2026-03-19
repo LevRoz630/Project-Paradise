@@ -2,6 +2,7 @@
 layout: page
 title: Cointegration
 permalink: /competitions/write-ups/hku/hku-ex-1/2nd-round/ideas/end-of-the-world/cointegration/
+description: "Regime-based error correction model approach for crypto pairs trading in HKU x Avenir."
 ---
 
 

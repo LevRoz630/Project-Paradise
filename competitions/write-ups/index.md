@@ -2,6 +2,7 @@
 layout: page
 title: Competition Write-Ups
 permalink: /competitions/write-ups/
+description: "Detailed write-ups from our trading competition entries including HKU x Avenir and QuantChallenge 2025."
 ---
 
 

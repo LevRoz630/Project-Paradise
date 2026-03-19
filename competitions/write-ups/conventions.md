@@ -2,6 +2,7 @@
 layout: page
 title: Write-Up Conventions
 permalink: /competitions/write-ups/conventions/
+description: "Standards for documenting competition strategies: overview, execution, and takeaway formats."
 ---
 
 

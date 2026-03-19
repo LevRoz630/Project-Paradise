@@ -2,6 +2,7 @@
 layout: page
 title: Workflow
 permalink: /competitions/write-ups/hku/hku-ex-1/1st-round/infrastructure/workflow/
+description: "Development workflow for HKU x Avenir Round 1 including data splits and model evaluation pipeline."
 ---
 
 

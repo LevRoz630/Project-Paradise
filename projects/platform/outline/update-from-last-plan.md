@@ -2,6 +2,7 @@
 layout: page
 title: Update from last plan
 permalink: /projects/platform/outline/update-from-last-plan/
+description: "Changes to the platform development plan including vectorbt fork, data layer, and bttool package updates."
 ---
 
 [← Back to Outline]({{ '/projects/platform/outline/' | relative_url }})

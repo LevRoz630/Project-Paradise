@@ -2,6 +2,7 @@
 layout: page
 title: Preprocessing
 permalink: /competitions/write-ups/hku/hku-ex-1/1st-round/preprocessing/
+description: "Data preprocessing methods explored for HKU x Avenir: z-score normalization, winsorization, and denoising."
 ---
 
 

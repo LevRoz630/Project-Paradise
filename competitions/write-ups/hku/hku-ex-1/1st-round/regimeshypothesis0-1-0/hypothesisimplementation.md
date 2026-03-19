@@ -2,6 +2,7 @@
 layout: page
 title: Regimes Implementation
 permalink: /competitions/write-ups/hku/hku-ex-1/1st-round/regimeshypothesis0-1-0/hypothesisimplementation/
+description: "Implementation of the regime detection hypothesis for crypto market state identification."
 ---
 
 

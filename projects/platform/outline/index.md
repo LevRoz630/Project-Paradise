@@ -2,6 +2,7 @@
 layout: page
 title: Outline
 permalink: /projects/platform/outline/
+description: "Technical specification and development plan for the student backtesting platform."
 ---
 
 ### What this is

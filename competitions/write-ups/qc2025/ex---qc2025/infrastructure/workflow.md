@@ -2,6 +2,7 @@
 layout: page
 title: QC2025 Workflow
 permalink: /competitions/write-ups/qc2025/ex---qc2025/infrastructure/workflow/
+description: "Development workflow for QuantChallenge 2025 including feature engineering and cross-validation."
 ---
 
 

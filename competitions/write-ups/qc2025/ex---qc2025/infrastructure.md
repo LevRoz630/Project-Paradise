@@ -2,6 +2,7 @@
 layout: page
 title: QC2025 Infrastructure
 permalink: /competitions/write-ups/qc2025/ex---qc2025/infrastructure/
+description: "Execution infrastructure for QuantChallenge 2025: data pipeline and model training setup."
 ---
 
 

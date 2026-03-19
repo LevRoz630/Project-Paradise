@@ -2,6 +2,7 @@
 layout: page
 title: Exogenous Variables
 permalink: /competitions/write-ups/hku/hku-ex-1/1st-round/exogenousvariables0-1-0/
+description: "Exploring on-chain data and funding rates as exogenous variables for crypto prediction."
 ---
 
 

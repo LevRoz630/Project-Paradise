@@ -2,6 +2,7 @@
 layout: page
 title: Coin Grouping Findings
 permalink: /competitions/write-ups/hku/hku-ex-1/1st-round/coinsgroupinghypothesis0-1-0/findings/
+description: "Results from clustering 355 cryptocurrencies by behavioral patterns in the HKU trading challenge."
 ---
 
 

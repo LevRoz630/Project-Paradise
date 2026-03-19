@@ -2,6 +2,7 @@
 layout: page
 title: Takeaways
 permalink: /competitions/write-ups/hku/hku-ex-1/1st-round/takeaways/
+description: "Lessons learned from HKU x Avenir Round 1: infrastructure, GPU optimization, and research process."
 ---
 
 

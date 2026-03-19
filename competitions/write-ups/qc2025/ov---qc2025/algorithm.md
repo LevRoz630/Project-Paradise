@@ -2,6 +2,7 @@
 layout: page
 title: QC2025 Basketball Algorithm
 permalink: /competitions/write-ups/qc2025/ov---qc2025/algorithm/
+description: "Basketball trading algorithm for QuantChallenge 2025: possession-based scoring, Kelly criterion, and Monte-Carlo simulation."
 ---
 
 

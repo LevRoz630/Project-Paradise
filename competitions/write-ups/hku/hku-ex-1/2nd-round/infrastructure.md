@@ -2,6 +2,7 @@
 layout: page
 title: 2nd Round Infrastructure
 permalink: /competitions/write-ups/hku/hku-ex-1/2nd-round/infrastructure/
+description: "Infrastructure setup for HKU x Avenir Round 2 live trading execution."
 ---
 
 

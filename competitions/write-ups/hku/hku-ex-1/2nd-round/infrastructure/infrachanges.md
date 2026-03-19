@@ -2,6 +2,7 @@
 layout: page
 title: Infrastructure Changes
 permalink: /competitions/write-ups/hku/hku-ex-1/2nd-round/infrastructure/infrachanges/
+description: "Changes made to the trading infrastructure between HKU x Avenir Round 1 and Round 2."
 ---
 
 
