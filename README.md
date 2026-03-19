@@ -2,25 +2,6 @@
 
 Jekyll-based website for Project Paradise, a student quantitative research and trading community.
 
-## Structure
-
-```
-Project-Paradise/
-├── _config.yml          # Jekyll configuration
-├── Gemfile             # Ruby dependencies
-├── index.md            # Homepage
-├── _layouts/           # Page templates
-├── _includes/          # Reusable components
-├── _data/              # YAML data files
-├── assets/
-│   ├── css/
-│   └── images/
-├── projects/           # Project documentation
-├── competitions/       # Competition information
-├── team/              # Team profiles
-└── resources/         # Learning materials
-```
-
 ## Content
 
 - **Projects**: Platform (backtesting tool), Research Publications, Internship Prep Platform
