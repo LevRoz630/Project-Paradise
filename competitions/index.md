@@ -5,6 +5,66 @@ permalink: /competitions/
 description: "Quantitative trading competitions we enter from firms like Citadel, Jane Street, IMC, and others. Write-ups, results, and upcoming events."
 ---
 
+<div class="note" style="margin-bottom: 2rem;">
+  <strong style="font-size: 1.15rem;">Active Competitions — March 2026</strong>
+  <table style="margin: 1rem 0 0.75rem;">
+    <thead>
+      <tr>
+        <th>Competition</th>
+        <th>Firm</th>
+        <th>Apply By</th>
+        <th>Competition Dates</th>
+        <th>Notes</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a href="https://prosperity.imc.com/" target="_blank">IMC Prosperity 4 ↗</a></td>
+        <td>IMC</td>
+        <td>Open now</td>
+        <td>14–30 April</td>
+        <td>Registration opened 16 March</td>
+      </tr>
+      <tr>
+        <td><a href="https://www.worldquant.com/brain/iqc/" target="_blank">WorldQuant IQC Stage 1 ↗</a></td>
+        <td>WorldQuant</td>
+        <td>Teams lock 13 May</td>
+        <td>Until 18 May 2026</td>
+        <td>Open for 6+ more weeks</td>
+      </tr>
+      <tr>
+        <td><a href="https://www.citadelsecurities.com/careers/programs-and-events/terminal/" target="_blank">Citadel Terminal Europe ↗</a></td>
+        <td>Citadel</td>
+        <td><strong>31 March</strong></td>
+        <td>21–28 April</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a href="https://www.citadelsecurities.com/careers/programs-and-events/terminal/" target="_blank">Citadel Terminal APAC ↗</a></td>
+        <td>Citadel</td>
+        <td><strong>29 March</strong></td>
+        <td>13–20 April</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a href="https://algotrade.xfer.hr/" target="_blank">Croatia AlgoTrade ↗</a></td>
+        <td>Jump / JS / SIG</td>
+        <td><strong>31 March</strong></td>
+        <td>8–10 May, Zagreb</td>
+        <td>In-person event</td>
+      </tr>
+      <tr>
+        <td><a href="https://www.widsworldwide.org/datathon/" target="_blank">WiDS Datathon ↗</a></td>
+        <td>WiDS</td>
+        <td>End of April</td>
+        <td>Open now</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <p style="margin: 0; font-size: 0.95rem;">Citadel deadlines are days away. Don't sleep on these.</p>
+</div>
+
 ## Our Write-Ups
 
 <div class="cards-grid">
@@ -25,7 +85,7 @@ description: "Quantitative trading competitions we enter from firms like Citadel
 
 ---
 
-## Proprietary
+## Other
 
 ### Citadel
 
@@ -81,24 +141,6 @@ description: "Quantitative trading competitions we enter from firms like Citadel
 |-------------|---------------|
 | [Ubiquant ↗](https://www.kaggle.com/competitions/ubiquant-market-prediction){:target="_blank"} | [1st ↗](https://www.kaggle.com/competitions/ubiquant-market-prediction/writeups/k-i-y-1st-place-solution-our-betting-strategy){:target="_blank"} · [2nd ↗](https://www.kaggle.com/competitions/ubiquant-market-prediction/writeups/davide-stenner-2nd-place-solution-robust-cv-and-lg){:target="_blank"} · [3rd ↗](https://www.kaggle.com/competitions/ubiquant-market-prediction/writeups/hyd-3rd-place-solution-5-seeds-ensemble-transforme){:target="_blank"} |
 | [Winton Stock ↗](https://www.kaggle.com/competitions/the-winton-stock-market-challenge){:target="_blank"} | - |
-
----
-
-## Upcoming 2026
-
-| Competition | Details | Link |
-|-------------|---------|------|
-| Harvard UTC | Individual apps → random teams | [Site ↗](https://www.harvarduqt.com/competition){:target="_blank"} |
-| Yale UTC | Deadline: 11th Jan | [Site ↗](https://yutc.org/){:target="_blank"} |
-| UChicago TC | Teams of 3-4 | [Site ↗](https://tradingcompetition.uchicago.edu/){:target="_blank"} |
-| Rotman ITC | Teams of 4-6, same university | [Site ↗](https://www.rotman.utoronto.ca/faculty-and-research/education-labs/bmo-financial-group-finance-research-and-trading-lab/rotman-international-trading-competition/){:target="_blank"} |
-| Global Quant | Less student-focused | [Site ↗](https://algogene.com/contest/quant){:target="_blank"} |
-| Ensimag IF | Energy market prediction | [Kaggle ↗](https://www.kaggle.com/competitions/ensimag-if-2025){:target="_blank"} |
-| Predictorium | German prediction challenge | [Site ↗](https://wundernn.io/predictorium){:target="_blank"} |
-
-[Full 2026 List by Christina Qi ↗](https://www.linkedin.com/pulse/2026-quant-trading-competitions-events-students-links-christina-qi-zygjc){:target="_blank"}
-
-Registration deadlines fill quickly. Apply early.
 
 ---
 

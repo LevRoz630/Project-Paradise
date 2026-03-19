@@ -11,8 +11,12 @@ Jekyll-based website for Project Paradise, a student quantitative research and t
 
 ## Local Development
 
-### Requirements
-- Ruby 2.7+
+### Dev Container (recommended)
+
+Open the repo in VS Code and select **Reopen in Container** (or use GitHub Codespaces). Ruby, Bundler, and all dependencies are pre-configured — just run `./serve.sh`.
+
+### Requirements (manual setup)
+- Ruby 3.3+
 - Bundler
 
 ### Setup
@@ -25,10 +29,16 @@ bundle install
 ### Run Locally
 
 ```bash
-bundle exec jekyll serve
+./serve.sh
 ```
 
-View at http://localhost:4000
+This installs dependencies if needed and starts Jekyll with live reload at http://localhost:4000.
+
+Alternatively, run manually:
+
+```bash
+bundle exec jekyll serve
+```
 
 ### Build
 
