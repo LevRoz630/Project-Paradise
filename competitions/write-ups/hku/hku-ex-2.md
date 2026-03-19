@@ -2,6 +2,7 @@
 layout: page
 title: HKU Team 2 - Execution
 permalink: /competitions/write-ups/hku/hku-ex-2/
+description: "Team 2 execution write-up for HKU x Avenir: XGBoost model, threshold-based trading, and position sizing."
 ---
 
 

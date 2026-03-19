@@ -2,6 +2,7 @@
 layout: page
 title: Internship Prep Platform
 permalink: /projects/internship-prep-platform/
+description: "LLM-powered platform for curating technical interview preparation materials. Early planning stages."
 ---
 
 [← Back to Projects]({{ '/projects/' | relative_url }})

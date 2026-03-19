@@ -6,6 +6,7 @@ role: supervisor
 photo: /assets/images/dmitry-zotikov.jpg
 position: "Lead Quant. Analyst, dxFeed Solutions"
 linkedin: https://www.linkedin.com/in/zot/
+description: "Dmitry Zotikov, lead quantitative analyst at dxFeed specializing in stochastic modeling and LOB prediction."
 ---
 
 ## About

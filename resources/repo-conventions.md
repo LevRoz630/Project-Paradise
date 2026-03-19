@@ -2,6 +2,7 @@
 layout: page
 title: Repo Conventions
 permalink: /resources/repo-conventions/
+description: "Repository standards for Project Paradise projects: Git workflow, Docker setup, CI/CD, and folder structure."
 ---
 
 [← Resources]({{ '/resources/' | relative_url }})

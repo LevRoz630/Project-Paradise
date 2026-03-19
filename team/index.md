@@ -2,6 +2,7 @@
 layout: page
 title: People
 permalink: /team/
+description: "Students and mentors in the Project Paradise community. Industry professionals from Flow Traders, Oxford, dxFeed, and more."
 ---
 
 Students and mentors from different universities and backgrounds, all curious about quantitative finance. No hierarchy, just people working on things they find interesting.

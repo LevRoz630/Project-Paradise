@@ -2,6 +2,7 @@
 layout: default
 title: Project Paradise
 permalink: /
+description: "A student community exploring quantitative finance through projects, competitions, and research, mentored by industry professionals."
 ---
 
 <div class="hero">

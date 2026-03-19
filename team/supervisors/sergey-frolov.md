@@ -6,6 +6,7 @@ role: supervisor
 photo: /assets/images/sergey-frolov.jpg
 position: "Quant Researcher @ QuantGem Mathematics"
 linkedin: ""
+description: "Sergey Frolov, quant researcher at QuantGem Mathematics specializing in ML-driven algorithmic trading."
 ---
 
 ## About

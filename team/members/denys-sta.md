@@ -8,6 +8,7 @@ position: "Class of 2028"
 university: University of St Andrews
 github:
 linkedin:
+description: "Denys StA, University of St Andrews student interested in software engineering and trading."
 ---
 
 ## About

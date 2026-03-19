@@ -2,6 +2,7 @@
 layout: page
 title: Competitions
 permalink: /competitions/
+description: "Quantitative trading competitions we enter from firms like Citadel, Jane Street, IMC, and others. Write-ups, results, and upcoming events."
 ---
 
 ## Our Write-Ups

@@ -2,6 +2,7 @@
 layout: page
 title: Platform
 permalink: /projects/platform/
+description: "Student-oriented backtesting platform for strategy hypothesis testing. Built with Python, Docker, and vectorbt."
 ---
 
 [← Back to Projects]({{ '/projects/' | relative_url }})

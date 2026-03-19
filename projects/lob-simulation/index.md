@@ -2,6 +2,7 @@
 layout: page
 title: LOB Prediction
 permalink: /projects/lob-simulation/
+description: "Limit order book prediction for the Predictorium competition using market microstructure modeling and ML."
 ---
 
 [← Back to Projects]({{ '/projects/' | relative_url }})

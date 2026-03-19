@@ -2,6 +2,7 @@
 layout: page
 title: Research Publications
 permalink: /projects/research-publications/
+description: "Student-led research papers in quantitative finance and algorithmic trading, reviewed by industry mentors."
 ---
 
 [← Back to Projects]({{ '/projects/' | relative_url }})

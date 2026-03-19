@@ -8,6 +8,7 @@ position: "Class of 2027, MSci Mathematics"
 university: Imperial College London
 github: ""
 linkedin: ""
+description: "Anthony Grishin, Imperial College London MSci Mathematics student interested in global markets and machine learning."
 ---
 
 ## About

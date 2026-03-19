@@ -2,6 +2,7 @@
 layout: page
 title: Join Us
 permalink: /join/
+description: "Join Project Paradise as a student or mentor. Work on quant finance projects, enter trading competitions, and learn by building."
 ---
 
 ## Everyone Starts Somewhere

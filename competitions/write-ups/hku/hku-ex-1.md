@@ -2,6 +2,7 @@
 layout: page
 title: HKU Team 1 - Execution
 permalink: /competitions/write-ups/hku/hku-ex-1/
+description: "Team 1 execution write-up for HKU x Avenir: infrastructure, feature selection, regime detection, and live trading."
 ---
 
 

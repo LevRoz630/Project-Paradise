@@ -2,6 +2,7 @@
 layout: page
 title: Ideas
 permalink: /ideas/
+description: "Project ideas from the community. Crypto market making, reinforcement learning for trading, options pricing, and more."
 ---
 
 <p class="page-intro">Things people in the community are curious about. Not commitments, just seeds. Some will become projects, some won't.</p>

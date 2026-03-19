@@ -2,6 +2,7 @@
 layout: page
 title: German Electricity
 permalink: /projects/german-electricity/
+description: "Forecasting German electricity prices for the Ensimag IF competition using time series analysis and ML."
 ---
 
 [← Back to Projects]({{ '/projects/' | relative_url }})

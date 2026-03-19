@@ -2,6 +2,7 @@
 layout: page
 title: Resources
 permalink: /projects/platform/resources/
+description: "Data sources, technical references, and documentation for the backtesting platform project."
 ---
 
 [← Back to Platform]({{ '/projects/platform/' | relative_url }})

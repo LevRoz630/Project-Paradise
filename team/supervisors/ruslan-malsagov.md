@@ -6,6 +6,7 @@ role: supervisor
 photo: /assets/images/ruslan-malsagov.jpg
 position: "Quant Trading, Flow Traders"
 linkedin: https://www.linkedin.com/in/ruslan-malsagov/
+description: "Ruslan Malsagov, quant trading leader at Flow Traders specializing in AI/ML-driven automated trading systems."
 ---
 
 ## About

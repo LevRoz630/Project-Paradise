@@ -2,6 +2,7 @@
 layout: page
 title: Projects
 permalink: /projects/
+description: "Student-led quantitative finance projects including backtesting tools, research publications, and competition entries."
 ---
 
 <p class="page-intro">Projects start when someone has an idea and others are interested. You pitch it, people join, and you start building together.</p>

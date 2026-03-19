@@ -6,6 +6,7 @@ role: supervisor
 photo: /assets/images/george-nigmatulin.jpg
 position: "PhD Researcher, University of Oxford"
 linkedin: https://www.linkedin.com/in/george-nigmatulin/
+description: "George Nigmatulin, Oxford PhD researcher in generative AI for market microstructure."
 ---
 
 ## About

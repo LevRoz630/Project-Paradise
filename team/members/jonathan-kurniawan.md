@@ -8,6 +8,7 @@ position: "Class of 2028, Derivatives & Statistics"
 university: London School of Economics
 github: ""
 linkedin: https://www.linkedin.com/in/jonathanfebriankurniawan/
+description: "Jonathan Febrian Kurniawan, LSE student focused on derivatives, statistics, and quantitative finance."
 ---
 
 ## About

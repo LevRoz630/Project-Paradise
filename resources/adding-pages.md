@@ -2,6 +2,7 @@
 layout: page
 title: Adding Pages
 permalink: /resources/adding-pages/
+description: "Guide for adding new pages, team members, and resources to the Project Paradise website."
 ---
 
 [← Resources]({{ '/resources/' | relative_url }})

@@ -2,6 +2,7 @@
 layout: page
 title: Background
 permalink: /projects/platform/background/
+description: "Problem statement and comparison of existing backtesting solutions like LEAN and NautilusTrader."
 ---
 
 [← Back to Platform]({{ '/projects/platform/' | relative_url }})

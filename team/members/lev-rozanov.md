@@ -8,6 +8,7 @@ position: "Mathematics Student · Founder"
 university: University of St Andrews
 github: ""
 linkedin: ""
+description: "Lev Rozanov, founder of Project Paradise. Mathematics student at the University of St Andrews."
 ---
 
 ## About

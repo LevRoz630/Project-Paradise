@@ -2,6 +2,7 @@
 layout: page
 title: Outline
 permalink: /projects/research-publications/outline/
+description: "How student research papers get written, reviewed by supervisors, and published openly."
 ---
 
 ### What this is

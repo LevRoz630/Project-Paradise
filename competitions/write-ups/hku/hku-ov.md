@@ -2,6 +2,7 @@
 layout: page
 title: HKU x Avenir - Overview
 permalink: /competitions/write-ups/hku/hku-ov/
+description: "Overview of the HKU x Avenir Trading Challenge: crypto prediction and live trading with $10K capital."
 ---
 
 

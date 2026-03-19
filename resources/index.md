@@ -2,6 +2,7 @@
 layout: page
 title: Resources
 permalink: /resources/
+description: "Books, courses, tools, and guides for learning quantitative finance, machine learning, statistics, and trading competitions."
 ---
 
 <div class="note">
