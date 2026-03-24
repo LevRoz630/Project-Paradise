@@ -54,13 +54,6 @@ description: "Quantitative trading competitions we enter from firms like Citadel
         <td>In-person event</td>
       </tr>
       <tr>
-        <td><a href="https://quantihack.com/" target="_blank">Quantihack ↗</a></td>
-        <td>JS / Optiver / Corvera</td>
-        <td><strong>Now</strong></td>
-        <td>21–28 March</td>
-        <td>Online week + London finals, £10k prizes</td>
-      </tr>
-      <tr>
         <td><a href="https://www.widsworldwide.org/datathon/" target="_blank">WiDS Datathon ↗</a></td>
         <td>WiDS</td>
         <td>End of April</td>
